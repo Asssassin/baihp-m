@@ -4,6 +4,7 @@
 			<!-- min/css end-->
 			<!-- min/js -->
             <script src="js/promote-seller.js"></script>
+            <script src="js/jquery.uploadifive.min.js"></script>
 			<!-- min/js end-->
 
 			<footer class="footer-nav-bar">
@@ -73,24 +74,24 @@
 						<input type="text" name="editHeading" class="bhp__text-editor--heading" placeholder="标题（必填，不超过12个字）">
 						<textarea name="editContent" id="editContent" cols="0" rows="0" class="bhp__text-editor--content" placeholder="正文（不超过300个字）"></textarea>
 					</div>
-					<div class="upload-bar bhp__form--section">
-						<button type="button" class="photo-upload upload-btn"><i class="ibhp-photo_library"></i>上传图片</button>
-						<button type="button" class="video-upload upload-btn"><i class="ibhp-video_library"></i>上传视频</button>
+					<div class="upload-bar bhp__form--section bhp__tab-fold--btns">
+						<button type="button" class="photo-upload upload-btn bhp__tab-fold--btn">
+							<i class="ibhp-photo_library"></i>上传图片
+						</button>
+						<button type="button" class="video-upload upload-btn bhp__tab-fold--btn">
+							<i class="ibhp-video_library"></i>上传视频
+						</button>
 					</div>
-					<div class="upload-container">
-						<div class="fuc-image">
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
-							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint">点击编辑</div></div>
+					<div class="upload-container bhp__tab-fold--items">
+						<div class="fuc-image bhp__tab-fold--item">
+							<!-- <div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div> -->
+							<div class="item addition"><a class="ratio-square-b"></a><div class="text">添加+</div><input type="file" class="file-upload-btn" multiple="true"></div>
 						</div>
-						<div class="fuc-video">
+						<div class="fuc-video bhp__tab-fold--item">
 							<!-- <embed type="video/quicktime" src="#" width="0" height="0"> -->
+							<video src="" autoplay=false poster="">
+
+							</video>
 						</div>
 					</div>
 					<div class="bhp__form--section">

@@ -162,6 +162,8 @@
                     color: $clr_text--light;
                     text-align: center;
                     display: block;
+					position: relative;
+					overflow: hidden;
                     i {
                         font-size: 22px;
                         width: 32px;
@@ -176,8 +178,14 @@
 				background-color: hsl(0, 0%, 52%);
 				height: 0;
 				overflow: hidden;
+				display: flex;
 				&.on {
 					height: auto;
+					min-height: 1px;
+				}
+				.fuc-image, .fuc-video {
+					width: 100%;
+					flex: 0 0 auto;
 				}
                 .fuc-image {
 					padding: 16px 0;
@@ -225,6 +233,23 @@
 							left: 0;
 							top: 50%;
 							position: absolute;
+						}
+						&.addition {
+							.text {
+								position: absolute;
+								top: 50%;
+								margin-top: -1em;
+								width: 100%;
+								text-align: center;
+								left: 0;
+							}
+							> input[type="file"] {
+								height: 100%;
+								opacity: 0;
+								left: 0;
+								top: 0;
+								position: absolute;
+							}
 						}
 					}
 				}

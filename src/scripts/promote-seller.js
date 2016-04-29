@@ -33,21 +33,42 @@ jQuery(document).ready(function($) {
 	/**
 	 * Upload Section
 	 */
+	let bhp_tab_fold = {
+		btns : $('.bhp__tab-fold--btns'),
+		btn : $('.bhp__tab-fold--btn'),
+		items : $('.bhp__tab-fold--items'),
+		item : $('.bhp__tab-fold--item')
+	};
+
+	let upui = bhp_tab_fold;
+	touch.on(upui.btn, 'tap', function () {
+		const the = $(this);
+
+		let index  = the.index(),
+			parent = the.parent(),
+			matchItems = parent.next(upui.items),
+			matchItem  = matchItems.children(upui.item).eq(index);
+
+		multiClass(matchItems, 'on');
+		console.log(matchItem);
+	});
+
+	console.log(upui);
+
 	let [uploadBar, uploadCon] = [
 		$('.upload-bar'),
 		$('.upload-container')
 	];
 
-	touch.on(uploadBar, 'tap', () => {
-		multiClass([uploadCon], 'on');
-	});
+	// touch.on(uploadBar, 'tap', () => {
+	// 	multiClass([uploadCon], 'on');
+	// });
 
 	let upPicClsBtn = uploadCon.find('.item i.close');
 	touch.on(upPicClsBtn, 'tap', function () {
 		let the = $(this),
 			_item = the.parent();
 
-		// console.log(the);
 		_item.remove();
 	});
 
