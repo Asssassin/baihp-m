@@ -1,0 +1,139 @@
+/**
+ * Fonts: Size
+ */
+$ft_sz--primary: 16px;
+$ft_sz--x-small: $ft_sz--primary * 0.7; // 11px
+$ft_sz--small: $ft_sz--primary * 0.75;  // 12px
+$ft_sz--middle: $ft_sz--primary * 0.8125;  // 14px
+$ft_sz--large: $ft_sz--primary * 1.25;  // 18px
+$ft_sz--x-large: $ft_sz--primary * 1.5; // 21px
+
+/**
+ * Color: Block
+ */
+$clr_block--primary-light: #FF8300;
+$clr_block--primary-dark: #3F4752;
+$clr_block--background-light: hsl(0, 0%, 96%);
+
+/**
+ * Color: Text
+ */
+$clr_text--primary: #FF8300;
+$clr_text--black: #222;
+$clr_text--dark: #333;
+$clr_text--light: #666;
+$clr_text--tint: #3F4752;
+
+/**
+ * Extend
+ */
+%ver-aln_pseudo {
+	&::before {
+		content: "";
+		height: inherit;
+		width: 0;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+%ver-aln_pseudo-a {
+	&::after {
+		content: "";
+		height: inherit;
+		width: 0;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+%text_overflow-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+%box_shadow--low {
+	box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, .25);
+}
+%box_shadow--high {
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.327);
+}
+
+%box_shadow--top-low {
+	box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, .25);
+}
+%box_shadow--top-high {
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.327);
+}
+
+%box_shadow--bottom-low {
+	box-shadow: 0 -1px 2px 0 hsla(0, 0%, 0%, .25);
+}
+%box_shadow--bottom-high {
+	box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.327);
+}
+
+%linear-gradient_text-a {
+	&::after {
+	    content: "";
+	    width: 8em;
+	    height: 1.15em;
+	    display: inline-block;
+	    right: 0;
+	    bottom: 0;
+	    position: absolute;
+	    background: linear-gradient(to left, #fff, transparent);
+	    background: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
+	}
+}
+
+%linear-gradient_block-a {
+	&::after {
+	    content: "";
+	    width: 40px;
+	    height: 100%;
+	    display: inline-block;
+	    right: 0;
+	    bottom: 0;
+	    position: absolute;
+	    background: linear-gradient(to left, #fff, transparent);
+	    background: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
+	}
+}
+%linear-gradient_block-a--top {
+	@extend %linear-gradient_block-a;
+	&::after {
+		width: 100%;
+	    background: linear-gradient(to top, #fff, transparent);
+	    background: -webkit-gradient(linear, left center, left top, from(white), to(rgba(255, 255, 255, 0)));
+	}
+}
+
+%clear-fixed {
+	&::before, &::after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+}
+
+%fade-toggle-on {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .25s, visibility .25s;
+	&.on {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+%fade-toggle-off {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity .25s, visibility .25s;
+	&.on {
+		opacity: 0;
+		visibility: hidden;
+	}
+}

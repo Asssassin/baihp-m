@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@import "libs/bourbon/bourbon";
+@import 'libs/mixin';
+@import 'libs/variables';
+
+.Container {
+	@at-root .Wrapper {
+		header.Header {
+			$h: 48px;
+			background-color: #e5e5e5;
+			height: $h;
+			.header-row {
+				&::before {
+					display: none;
+				}
+				>i.header-back-btn {
+					@include position(absolute, 0 null null 0);
+					color: $clr_text--dark;
+				}
+				>h1.heading {
+					font-size: $ft_sz--large;
+					font-weight: normal;
+					text-align: center;
+					line-height: $h;
+					margin: 0;
+				}
+			}
+		}
+
+		main.Content {
+			background-color: $clr_block--background-light;
+			flex-direction: column;
+			display: flex;
+			@at-root .treasure-detail-list {
+				// height: 100%;
+				.bhp__tablebox--body {
+					transition: height .25s;
+					// height: 100%;
+				}
+				.bhp__tablebox--footer {
+					font-size: $ft_sz--middle;
+					justify-content: space-around;
+					-webkit-box-pack: justify;
+					display: flex;
+					>* {
+						display: block;
+						padding: 0 8px;
+					}
+					.total-hongbao {
+						flex-grow: 1;
+					}
+				}
+			}
+			form.transfer-form {
+				display: none;
+				// visibility: hidden;
+				// opacity: 0;
+				padding: 16px;
+				position: relative;
+				transition: visibility .25s .25s, opacity .25s .25s;
+				&.on {
+					// visibility: hidden;
+					// opacity: 0;
+					display: block;
+				}
+				input[type="text"] {
+				    width: 100%;
+				}
+				label {
+					font-size: $ft_sz--middle;
+				}
+			}
+			.responese-text {
+				@extend %ver-aln_pseudo;
+				@include size(100% 100%);
+				@include position(absolute, 0 0 0 0);
+			    background-color: hsla(0, 0%, 100%, 0.76);
+				color: $clr_text--primary;
+				font-size: $ft_sz--primary;
+				text-align: center;
+			    font-size: 16px;
+				display: none;
+				&.on {
+					display: block;
+				}
+			}
+		}
+	}
+}

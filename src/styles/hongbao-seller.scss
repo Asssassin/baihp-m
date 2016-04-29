@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@import "libs/bourbon/bourbon";
+@import 'libs/mixin';
+@import 'libs/variables';
+
+.Container {
+	@at-root .Wrapper {
+		header.Header {
+			$h: 48px;
+			background-color: #e5e5e5;
+			height: $h;
+			.header-row {
+				&::before {
+					display: none;
+				}
+				>i.header-back-btn {
+					@include position(absolute, 0 null null 0);
+					color: $clr_text--dark;
+				}
+				>h1.heading {
+					font-size: $ft_sz--large;
+					font-weight: normal;
+					text-align: center;
+					line-height: $h;
+					margin: 0;
+				}
+			}
+		}
+
+		.hongbao-footer-nav {
+			@extend %box_shadow--bottom-high;
+			background-color: hsl(0, 0%, 100%);
+			height: 48px;
+			width: 100%;
+			bottom: 0;
+			position: absolute;
+			line-height: 48px;
+			nav.hfn-wrapper {
+				height: inherit;
+			    display: flex;
+				a.item {
+					flex: 1;
+					text-align: center;
+					display: block;
+				}
+			}
+		}
+		main.Content {
+			background-color: $clr_block--background-light;
+			@at-root .hongbao-detail-list {
+				.bhp__tablebox--body {
+					transition: height .25s;
+				}
+				.bhp__tablebox--footer {
+					font-size: $ft_sz--middle;
+					justify-content: space-around;
+					-webkit-box-pack: justify;
+					display: flex;
+					>* {
+						display: block;
+						padding: 0 8px;
+					}
+					.total-hongbao {
+						flex-grow: 1;
+					}
+				}
+			} // @at-root .hongbao-detail-list
+			@at-root .hongbao-help {
+				margin: 16px;
+				h2.heading {
+					@include reset(h);
+					font-size: $ft_sz--primary;
+				}
+				pre.content {
+					color: $clr_text--light;
+					font-size: $ft_sz--middle;
+					line-height: 1;
+					margin: 0;
+				}
+			}
+		}
+	}
+}

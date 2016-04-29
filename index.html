@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GULP4 INDEX</title>
+
+    <!-- Page Styles -->
+    <style media="screen">
+        /** Common */
+        html,
+        body {
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Roboto", "Microsoft Yahei", Helvetica, sans-serif;
+        }
+
+        div.Container * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        div.Container {
+            background-color: hsl(0, 0%, 24%);
+            height: inherit;
+            overflow: hidden;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            position: absolute;
+        }
+
+        div.Wrapper {
+            height: inherit;
+            width: inherit;
+            overflow: hidden;
+        }
+
+        main.Content {
+            background-color: hsl(0, 0%, 96%);
+            height: inherit;
+            min-height: 100%;
+            overflow: hidden;
+            overflow-y: auto;
+        }
+
+        section.app-navigator {
+            overflow: hidden;
+        }
+
+        h1.an-heading {
+            background-color: hsl(0, 0%, 20%);
+            line-height: 3.05;
+            margin: 0;
+            margin-bottom: 22px;
+            color: hsl(0, 0%, 76%);
+            font-size: 22px;
+            text-align: center;
+        }
+
+        h1.an-heading::before,
+        h1.an-heading::after {
+            content: " - ";
+        }
+
+        div.entry-list {
+            padding-bottom: 10%;
+        }
+
+        a.entry {
+            transition: color .25s, box-shadow .125s;
+            box-shadow: 0 1px 2px hsla(207, 45%, 25%, 0.22);
+            border-radius: 2px;
+            background-color: hsl(0, 0%, 100%);
+            color: hsl(158, 68%, 40%);
+            font-size: 18px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 2.35;
+            margin: 8px 16px;
+            padding: 0 16px;
+            display: block;
+        }
+
+        a.entry:hover {
+            box-shadow: 0 2px 6px hsla(207, 45%, 25%, 0.22);
+        }
+
+        a.entry:link {
+            color: hsl(158, 68%, 40%);
+        }
+
+        a.entry:visited {
+            color: hsl(0, 0%, 67%);
+            background-color: hsl(0, 0%, 100%);
+        }
+        /** Common end*/
+
+        /** PC */
+
+        .Container[data-device="PC"], .Container[data-device="PC"] a {
+            cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAACn0lEQVRIibWWPU/bUBSGn3vdSCCRAQiRShO7EWIyakcWOrhLF2+VYlsM5WeEf8AYMWfpkg+kbixdyND+gRSHSkVIxUmLlACVCBIRano75IOPQhJK8o6+1+9zj3V93iMYIKXUNLAIPAciwERnqQkcA9+BfeBXPx/RBxAHVoIgiOVyOXZ2dtjb26NerxMKhYjFYhiGgWVZJJNJEolEFfgMVIYCKaWeAK+DIHiZSqXY2tqi1Wr1rVrTNJLJJBsbG+i6XgJ2gN/3gpRSE8Db7e3t+dXVVc7OzvoCbiscDpPNZrFt+yfwgfbnbR/mGiQEJDc3N+fX1tZoNpt3WPXX5eUlhUKB6enp8PLysg58Bf7cqEgp9aZQKLzwPA+l1IMh1yWEIJfL4TjOF+BjD6SUilcqFdc0TRqNxqMgXYXDYXzfR9f1PFCRnecrqVRqZBCARqPB+vo6wAqAUEpFDw8P3y0sLAy8XQ+VpmkcHBxgGMZ7CSzm8/mRQwBarRb5fB5gUQKxYrE4ckhXHe+4BGZ93x8bqOM9I4GJ4+PjsYHq9TrAhBy0cVSSQDMSiYwNMDc3B9CUwMnS0tLYQB3vUwlULcsaG6jjXZXAvuu6aJo24JWHS0qJ67oA36QQomYYRtVxnJGDXNfFMIwqUOs11SAIXNM0OT8/HwlkamqKcrl8s6kKISq6rpcymQxC3JvuQ0sIQSaT6aZtBdrXu6ui4zhH6XQaKf//95JSkk6ncRznCOj1tttRPkk7yp8+MsqPaEf5Re8A1zcKIS6AvG3bpd3dXTzPG6o6TdPwPA/f97FtuwQUrkP+qehWdXHgVRAEz7LZLMVikXK5TK1WAyAajWKaJpZl4TgOiUTiB/CJYcetO4AzXA2Qs8BkZ+kCOOFqgDzt5/MXjCkF1aqiS1sAAAAASUVORK5CYII='), auto;
+        }
+        .Container[data-device="PC"] {
+            padding: 16px 0;
+        }
+
+        .Container[data-device="PC"] > .Wrapper {
+            border-radius: 3px;
+            box-shadow: 0 4px 20px hsla(0, 0%, 96%, 0.14);
+            border: 1px solid hsla(0, 0%, 96%, 0.14);
+            max-width: 420px;
+            margin: 0 auto;
+        }
+
+        .Container[data-device="PC"] .Content {
+            /*width: calc(100% + 20px);*/
+            overflow: hidden;
+        }
+        /** PC end*/
+    </style>
+    <!-- Page Styles end-->
+</head>
+
+<body>
+    <div class="Container" data-device="">
+        <div class="Wrapper">
+            <main class="Content">
+            </main>
+        </div>
+    </div>
+
+    <!-- Page Scripts -->
+    <script>
+        /**
+         * Change Device Type
+         * @return {[type]} [description]
+         */
+        var is_mobile = (function () {
+            return /[m|M]obile/g.test(navigator.userAgent);
+        })();
+
+        /**
+         * Selector
+         * @param  {Object ?} selector [description]
+         * @return {Object}
+         */
+        var WeeL = function (selector) {
+            var obj = document.querySelectorAll(selector);
+
+            return obj.length === 1 ? obj[0] : obj;
+        };
+
+        /**
+         * Initial XMLHttpRequest
+         * @return {Object} XMLHttpRequest
+         */
+        function initXHR() {
+            var xhr;
+            try {
+                xhr = new XMLHttpRequest();
+            } catch (e) {
+                xhr = new ActiveXObject('Microsoft.XMLHTTP');
+            } finally {
+                return xhr;
+            }
+        }
+
+        /**
+         * Ajax Method of GET for Json
+         * @param  {String}   url [description]
+         * @param  {Function} fn  [description]
+         */
+        function getJson(url, fn) {
+            var xhr = initXHR();
+
+            xhr.open('GET', url);
+            xhr.send();
+            xhr.onreadystatechange = function (data) {
+                if (xhr.readyState === 4 && xhr.status === 200) (fn)(data);
+            };
+        }
+
+        /**
+         * Define Variables
+         */
+         var appContent = WeeL('main.Content');
+
+        /**
+         * [addEventListener description]
+         * @param {[type]}  [description]
+         * @param {[type]}  [description]
+         */
+        window.addEventListener('load', function () {
+            document.querySelector('.Container')
+                .setAttribute('data-device', is_mobile ? 'mobile' : 'PC');
+
+            /**
+             * Joint List
+             * @param  {Object} obj Index Json Object
+             * @return {String}     Dom
+             */
+            function _list(obj) {
+                var _obj  = obj.list,
+                    items = '';
+
+                for (var i = 0; i < _obj.length; i++) items += '<a href="' + obj.rootdir + _obj[i].link + '" class="entry an-item">' + _obj[i].name + '</a>';
+
+                return '<nav class="entry-list">' + items + '</nav>';
+            }
+
+            /**
+             * Joint Heading
+             * @param  {String} str Index Json Object.Heading
+             * @return {String}     Dom
+             */
+            function _heading(str) {
+                return '<h1 class="an-heading">' + str + '</h1>';
+            }
+
+            /**
+             * Joint Section
+             * @param  {Object} obj Index Json Object
+             * @param  {String} hd  Heading
+             * @return {String}     Dom
+             */
+            function _section(obj, hd) {
+                return '<section class="app-navigator">' + _heading(hd) + _list(obj) + '</section>';
+            }
+
+            getJson('./index.json', function (data) {
+                var indexJson = eval('(' + data.target.responseText + ')'),
+                    blocks = "";
+
+                for (var i = 0; i < indexJson.length; i++) {
+                    var mod = indexJson[i];
+                    blocks += _section(mod, mod.heading, mod.rootdir);
+                }
+
+                appContent.innerHTML = blocks;
+
+                dragList();
+            });
+        });
+
+        /**
+         * [dragList description]
+         * @return {[type]} [description]
+         */
+        var dragList = function () {
+            var item = appContent.querySelectorAll('a.an-item');
+
+            for (var i = 0; i < item.length; i++) {
+                item[i].addEventListener('mouseover', function () {
+                    var _href = this.getAttribute('href');
+
+                    this.removeAttribute('href');
+
+                    this.addEventListener('mouseout', function () {
+                        this.setAttribute('href', _href);
+                    });
+
+                    this.addEventListener('mousedown', function (ev) {
+                        var _dy = ev.y;
+                        this.addEventListener('mouseup', function (ev) {
+                            return Math.abs(ev.y - _dy) > 0 ? false : this.setAttribute('href', _href);
+                        });
+                    });
+                });
+            }
+
+            document.addEventListener('mousedown', _down);
+            document.addEventListener('mouseup', _up);
+
+            var cttop;
+            var dy, my, uy;
+
+            function _down(ev) {
+                cttop = appContent.scrollTop;
+                dy = ev.y;
+                this.addEventListener('mousemove', _move);
+            }
+
+            function _move(ev) {
+                my = ev.y;
+                appContent.scrollTop = cttop + (dy - my);
+            }
+
+            function _up(ev) {
+                cttop = appContent.scrollTop;
+                uy = ev.y;
+                this.removeEventListener('mousemove', _move);
+            }
+        };
+    </script>
+    <!-- Page Scripts end-->
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@import "libs/bourbon/bourbon";
+@import 'libs/mixin';
+@import 'libs/variables';
+
+.Container {
+	@at-root .Wrapper {
+		.select-tab-box {
+		    transition: transform .25s, opacity .15s, visibility .15s;
+		    transform: scale3d(1.2, 1.2, 1);
+		    opacity: 0;
+		    visibility: hidden;
+			background-color: hsla(0, 0%, 0%, 0.77);
+			z-index: 43;
+			&.on {
+				transform: scale3d(1, 1, 1);
+			    opacity: 1;
+			    visibility: visible;
+			    .stb-item-list {
+			    	.stb-item {
+			    		transform: translateY(0);
+			    	}
+			    }
+			}
+			.stb-close {
+				font-size: 24px;
+				display: block;
+				width: 48px;
+				height: 48px;
+				line-height: 48px;
+				text-align: center;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				margin-bottom: 16px;
+				margin-left: -24px;
+				i {
+					display: block;
+				    color: hsl(0, 0%, 26%);
+				    height: inherit;
+				    line-height: inherit;
+				    background-color: hsl(0, 0%, 100%);
+				    border-radius: 50%;
+				}
+			}
+			.stb-item-list {
+				@include size(inherit inherit);
+				align-items: center;
+				flex-direction: row;
+				display: flex;
+			    transform: translateX(0);
+			    transition: transform .25s;
+			    &.tab-a {transform: translateX(-100%);}
+			    &.tab-b {transform: translateX(-200%);}
+			    &.tab-c {transform: translateX(-300%);}
+			    &.tab-d {transform: translateX(-400%);}
+				.stb-item {
+				    transition: transform .25s .15s;
+				    transform: translateY(-10%);
+					background-color: hsl(0, 0%, 100%);
+					width: 100%;
+					padding: 8px 16px;
+				    padding-bottom: 24px;
+					flex-shrink: 0;
+					>h3.heading {
+						color: $clr_text--dark;
+						font-size: $ft_sz--primary;
+						line-height: 2.25;
+						margin: 0;
+					}
+				    >nav.container {
+				    	line-height: 1.85;
+				    	// font-size: $ft_sz--middle;
+				    	>a.item {
+							width: 25%;
+				    		color: $clr_text--dark;
+						    text-align: center;
+							padding: 0 8px;
+							display: inline-block;
+							white-space: nowrap;
+							overflow: hidden;
+							text-overflow: ellipsis;
+				    	}
+				    }
+				}
+			}
+		}
+		@at-root main.Content {
+			background-color: hsl(0, 0%, 96%);
+			h1.heading {
+				background-color: hsl(0, 85%, 45%);
+			    color: hsl(0, 0%, 100%);
+			    letter-spacing: .125em;
+				font-size: $ft_sz--large;
+			    line-height: 2.25;
+				text-align: center;
+			    margin: 0;
+			}
+			form.entry-seller-form {
+				// text-align: center;
+				margin: 0 16px;
+				padding-bottom: 16px;
+				.section {
+					input {
+						background-color: #fff;
+					}
+					input[type="submit"] {
+						margin-right: 8px;
+						padding: 0 16px;
+					}
+					&.row {
+						padding: 0;
+						label {
+							width: 5em;
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
+}

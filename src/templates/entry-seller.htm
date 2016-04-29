@@ -1,0 +1,81 @@
+<!--=include components/head.htm -->
+			<!-- min/css -->
+			<link rel="stylesheet" href="css/entry-seller.css">
+			<!-- min/css end-->
+			<!-- min/js -->
+			<script src="js/entry-seller.js"></script>
+			<!-- min/js end-->
+
+			<!--=include components/select-tab-box.htm -->
+
+			<main data-index-page="entry-seller" class="Content bhp__content">
+				<h1 class="heading">商家入驻</h1>
+
+				<form action="" method="GET" class="entry-seller-form bhp__form">
+					<div class="bhp__form--section bhp__form--section-column section">
+						<label for="companyName" class="must">公司全称</label>
+						<input type="text" name="companyName" id="companyName" class="bhp__form--input-float">
+					</div>
+					<div class="bhp__form--section bhp__form--section-column section">
+						<label for="companyLocation" class="must">公司地址</label>
+						<input type="text" name="companyLocation" id="companyLocation" class="bhp__form--input-float">
+					</div>
+
+					<div class="bhp__layout--line-row"></div>
+
+					<div class="companyBusiness bhp__form--section section">
+						<!-- changed -->
+						<input type="hidden" name="fids[]" value="" class="aim">
+						<input type="hidden" name="fids[]" value="" class="aim">
+						<input type="hidden" name="fids[]" value="" class="aim">
+						<input type="hidden" name="fids[]" value="" class="aim">
+						<!-- changed end-->
+						<label for="companyBusiness" class="must">主营分类</label>
+						<!-- changed -->
+						<button class="companyBusiness-Btn bhp__form--button" autofocus="false" type="button" data-require="tmp/fenlei.tmp.json.js" data-repeat=4 data-method="GET">点击添加</button>
+						<!-- changed end-->
+						<div class="bhp__form--placeholder">请先选择…</div>
+						<ul class="companyBusiness-content bhp__form--result-list"></ul>
+					</div>
+
+					<div class="bhp__layout--line-row"></div>
+
+					<div class="companyPosition bhp__form--section section">
+						<!-- changed -->
+						<input type="hidden" name="province" value="" class="aim province">
+						<input type="hidden" name="city" value="" class="aim city">
+						<input type="hidden" name="zone" value="" class="aim zone">
+						<input type="hidden" name="street" value="" class="aim street">
+						<label for="companyPosition" class="must">所属区域</label>
+						<button class="companyPosition-Btn bhp__form--button" autofocus="false" type="button" data-require="tmp/area.tmp.php?json=y" data-repeat=1 data-method="GET">点击选择</button>
+						<!-- changed end-->
+						<div class="bhp__form--placeholder">请先选择…</div>
+						<ul class="companyPosition-content bhp__form--result-list"></ul>
+					</div>
+
+					<div class="bhp__layout--line-row"></div>
+
+					<div class="bhp__form--section section row">
+						<label for="userEmail">邮箱</label>
+						<input type="text" name="userEmail" id="userEmail" class="bhp__form--input-float">
+					</div>
+					<div class="bhp__form--section section row">
+						<label for="userContact">联系人</label>
+						<input type="text" name="userContact" id="userContact" class="bhp__form--input-float">
+					</div>
+					<div class="bhp__form--section section row">
+						<label for="userPhone">公司电话</label>
+						<input type="text" name="userPhone" id="userPhone" class="bhp__form--input-float">
+					</div>
+					<div class="bhp__form--section section row">
+						<label for="servePhone">客服电话</label>
+						<input type="text" name="servePhone" id="servePhone" class="bhp__form--input-float">
+					</div>
+					<div class="bhp__form--section section">
+						<input type="submit" value="提交" class="bhp__form--input-submit on">
+						<input type="checkbox" name="agreement" value="1" checked id="agreement">
+						<label for="agreement" class="bhp__form--agreement">我已阅读并同意[会员注册协议]</label>
+					</div>
+				</form>
+
+<!--=include components/foot.htm -->

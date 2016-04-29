@@ -1,0 +1,100 @@
+<!--=include components/sub/head.htm -->
+			<!-- min/css -->
+			<link rel="stylesheet" href="css/promote-seller.css">
+			<!-- min/css end-->
+			<!-- min/js -->
+            <script src="js/promote-seller.js"></script>
+			<!-- min/js end-->
+
+			<footer class="footer-nav-bar">
+				<nav class="fnb-wrapper">
+					<a class="hongbao-btn item">红包设置</a>
+					<a class="help-btn item">帮助攻略</a>
+				</nav>
+			</footer>
+			<section class="footer-nav-container">
+				<div class="fnc-wrapper">
+					<div class="fnc-list">
+						<div class="fnc-item">
+							<form class="bhp__form" method="GET" action="">
+								<div class="bhp__form--section">
+									<span class="bhp__form--cell">
+										<label for="hongbaoSingle">单次红包</label>
+										<input name="hongbaoSingle" type="text" id="hongbaoSingle" value="0" class="money">元
+									</span>
+									<span class="bhp__form--cell">
+										<label for="hongbaoTotal">总金额</label>
+										<input name="hongbaoTotal" type="text" id="hongbaoTotal" value="0" class="money">元
+									</span>
+									<span class="bhp__form--cell">
+										<label for="accountRemain">剩余</label>
+										<input name="accountRemain" type="text" id="accountRemain" value="0" class="money">元
+									</span>
+									<span class="bhp__form--cell">
+										<label for="accountTotal">账户</label>
+										<input name="accountTotal" type="text" id="accountTotal" value="0" class="money">元
+										<a href="#top-up" class="top-up">充值</a>
+									</span>
+								</div>
+								<div class="bhp__layout--line-row"></div>
+							<!-- </form> -->
+							<!-- <form class="bhp__form" action="" method="post"> -->
+								<div class="charge-set bhp__form--section">
+									<span class="bhp__form--cell">
+										<label for="batterySet">充电阈值</label>
+										<input name="batterySet" type="range" min="1" max="10" value="0" class="batterySetRange">
+										<span class="value">0</span>%
+									</span>
+									<span class="bhp__form--cell">
+										<label for="chargeCountry">全国</label>
+										<input type="radio" name="chargeArea" value="1" id="chargeCountry">
+										<label for="chargeProvince">省份</label>
+										<input type="radio" name="chargeArea" value="" id="chargeProvince">
+										<label for="chargeCity">城市</label>
+										<input type="radio" name="chargeArea" value="" id="chargeCity">
+									</span>
+									<span class="bhp__form--cell">
+										<label for="chargeInterval">时间间隔</label>
+										<input name="chargeInterval" type="range" min="1" max="12" value="0" class="chargeIntervalRange" id="chargeInterval">
+										<span class="value">0</span>小时
+									</span>
+								</div>
+							</form>
+						</div>
+						<div class="fnc-item">
+							0000
+						</div>
+					</div>
+				</div>
+			</section>
+			<main data-index-page="promote-seller" class="Content">
+				<form action="" class="promote-form bhp__form">
+					<div class="bhp__text-editor">
+						<input type="text" name="editHeading" class="bhp__text-editor--heading" placeholder="标题（必填，不超过12个字）">
+						<textarea name="editContent" id="editContent" cols="0" rows="0" class="bhp__text-editor--content" placeholder="正文（不超过300个字）"></textarea>
+					</div>
+					<div class="upload-bar bhp__form--section">
+						<button type="button" class="photo-upload upload-btn"><i class="ibhp-photo_library"></i>上传图片</button>
+						<button type="button" class="video-upload upload-btn"><i class="ibhp-video_library"></i>上传视频</button>
+					</div>
+					<div class="upload-container">
+						<div class="fuc-image">
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>
+							<div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint">点击编辑</div></div>
+						</div>
+						<div class="fuc-video">
+							<!-- <embed type="video/quicktime" src="#" width="0" height="0"> -->
+						</div>
+					</div>
+					<div class="bhp__form--section">
+						<input type="submit" class="bhp__form--input-submit on">
+					</div>
+				</form>
+<!--=include components/sub/foot.htm -->

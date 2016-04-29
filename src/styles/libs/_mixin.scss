@@ -1,0 +1,173 @@
+/**************************************** mixin */
+@mixin obj-pos($t:initial, $l:initial, $r:initial, $b:initial, $p:absolute, $z:initial) {
+	@if $t != initial {
+		top: $t;
+	}
+	@if $r != initial {
+		right: $r;
+	}
+	@if $b != initial {
+		bottom: $b;
+	}
+	@if $l != initial {
+		left: $l;
+	}
+	@if $z != initial {
+		z-index: $z;
+	}
+		position: $p;
+}
+
+@mixin obj-aln($v-a:initial, $l-h:initial) {
+	@if $l-h != initial {
+		line-height: $l-h;
+	}
+	@if $v-a != initial {
+		vertical-align: $v-a;
+	}
+}
+
+@mixin fix($check) {
+	$c: $check;
+	@if $c == ul or $c == ol {
+		list-style: none;
+		padding: initial;
+		margin: initial;
+	} @else if $c == a {
+		color: initial;
+		text-decoration: initial;
+	} @else if $c == p {
+		margin: initial;
+	} @else if $c == h {
+		font-weight: initial;
+		margin: initial;
+	}
+}
+
+@mixin reset($check) {
+	$c: $check;
+
+	@if $c == ul or $c == ol {
+		list-style: none;
+		padding: initial;
+		margin: initial;
+	} @else if $c == a {
+		color: initial;
+		text-decoration: initial;
+	} @else if $c == p {
+		margin: initial;
+	} @else if $c == h {
+		font-weight: initial;
+		margin: initial;
+	} @else if $c == button or textarea or input {
+		background: none;
+		border: none;
+		outline: none;
+		padding: 0;
+	}
+}
+
+@mixin icon-set($l-h:1, $f-s:24px, $c:initial, $t-a:center, $dp:block) {
+	color: $c;
+	line-height: $l-h;
+	text-align: $t-a;
+	font-size: $f-s;
+	display: $dp;
+}
+
+@mixin ft-set($s:initial, $c:initial, $h:initial, $t:initial, $e:initial) {
+	@if $c != initial {
+		color: $c;
+	}
+	@if $e != initial {
+		font-weight: $e;
+	}
+	@if $s != initial {
+		font-size: $s;
+	}
+	@if $h != initial {
+		line-height: $h;
+	}
+	@if $t != initial {
+		text-align: $t;
+	}
+}
+
+@mixin box-set($dp, $h:initial, $w:initial, $bg:initial, $of:initial) {
+	@if $h != initial {
+		height: $h;
+	}
+	@if $w != initial {
+		width: $w;
+	}
+	@if $bg != initial {
+		background: $bg;
+	}
+	@if $of != initial {
+		overflow: $of;
+	}
+	@if $dp == 1 {
+		display: block;
+	} @else if $dp == 0 {
+		// display: block;
+	} @else {
+		display: $dp;
+	}
+}
+
+@mixin box-beset($pd:initial, $mg:initial) {
+	@if $pd != initial {
+		padding: $pd;
+	}
+	@if $mg != initial {
+		margin: $mg;
+	}
+}
+
+@mixin box-style($b-r:initial, $b-sd:initial) {
+	@if $b-r != initial {
+		border-radius: $b-r;
+	}
+	@if $b-sd != initial {
+		box-shadow: $b-sd;
+	}
+}
+
+@mixin tag-style($lh:$rem*1.8, $bg: nth($clr, 1), $c: nth($clr, 19)) {
+	$f: nth($fs, 2);    // Font Size
+	$pd: $rem*.6;
+	$calc: $lh/2;
+
+	@include box-set(inline-block, initial, initial, $bg);
+	@include box-beset(0 $pd);
+	@include ft-set($f, $c, $lh);
+	@include fix(a);
+	position: relative;
+	&::before {
+		content: "";
+		@include box-set(1);
+		@include obj-pos(0, initial, -$calc);
+		border: {
+			color: transparent transparent transparent $bg;
+			style: solid;
+			width: $calc 0 $calc $calc;
+		}
+	}
+}
+
+@mixin line($position, $weight:1px, $style:solid, $color:nth($clr, 3)) {
+	border-#{$position}: $weight $style $color;
+}
+
+// mixin
+@mixin screen-max($w) {
+	@media only screen and (max-width:$w) {
+		@content;
+	}
+}
+
+@mixin screen-min($w) {
+	@media only screen and (min-width:$w) {
+		@content;
+	}
+}

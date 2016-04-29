@@ -1,0 +1,158 @@
+// mixin
+@mixin _screen-max($w) {
+	@media only screen and (max-width:$w) {
+		@content;
+	}
+}
+
+@mixin _screen-min($w) {
+	@media only screen and (min-width:$w) {
+		@content;
+	}
+}
+
+@mixin _calc-to-fill($screen, $init) {
+	@if $init && $init {
+		@for $i from 1 through $init {
+			.col-#{$screen}-#{$i} {
+				width: (100%/$i);
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------------------- */
+
+/**
+ * Columns Grid (size: dp)
+ *
+ * 0
+ * 360
+ * 400
+ * 480  -- xs ---- 4 colums
+ * 600
+ * 720
+ * 840
+ * 960  -- s  ---- 8 colums
+ * 1024
+ * 1280 -- m  ---- 12 colums
+ * 1440
+ * 1600 -- l  ---- 12 colums
+ * 1920 -- xl ---- 12 colums
+ *
+ *
+ */
+
+.column-grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    align-items: stretch;
+	// 0
+	@include _screen-min(0) {
+		@include _calc-to-fill(ss, 4);
+	}
+
+	// 360
+	@include _screen-min(360px) {
+		@include _calc-to-fill(ss1, 4);
+	}
+
+	// 400
+	@include _screen-min(400px) {
+		@include _calc-to-fill(ss2, 4);
+	}
+
+	// 480
+	@include _screen-min(480px) {
+		@include _calc-to-fill(xs, 4);
+	}
+
+	// 600
+	@include _screen-min(600px) {
+		@include _calc-to-fill(xs1, 8);
+	}
+
+	// 720
+	@include _screen-min(720px) {
+		@include _calc-to-fill(xs2, 8);
+	}
+
+	// 840
+	@include _screen-min(840px) {
+		@include _calc-to-fill(xs3, 8);
+	}
+
+	// 960
+	@include _screen-min(960px) {
+		@include _calc-to-fill(s, 8);
+	}
+
+	// 1024
+	@include _screen-min(1024px) {
+		@include _calc-to-fill(s1, 12);
+	}
+
+	// 1280
+	@include _screen-min(1280px) {
+		@include _calc-to-fill(m, 12);
+	}
+
+	// 1440
+	@include _screen-min(1440px) {
+		@include _calc-to-fill(m1, 12);
+	}
+
+	// 1600
+	@include _screen-min(1600px) {
+		@include _calc-to-fill(l, 12);
+	}
+
+	// 1920
+	@include _screen-min(1920px) {
+		@include _calc-to-fill(xl, 12);
+	}
+}
+
+/* ----------------------------------------------------------------------- */
+
+/**
+ * Columns Gutter
+ *
+ *
+ */
+
+.column-gutter {
+
+	/* Manully Modify */
+	@each $gutter in 16, 24 {
+		&-#{$gutter} {
+			$value: $gutter/2;
+			margin: -#{$value}px;
+			.col-row {
+				padding: #{$value}px;
+			}
+		}
+	}
+	
+	/* Auto Responsive in 16dp/24dp */
+	// 16px
+	@include _screen-min(0) {
+		$gutter: 16px;
+		$value: $gutter/2;
+		margin: -$value;
+		.col-row {
+			padding: $value;
+		}
+	}
+	
+	// 24px
+	@include _screen-min(960px) {
+		$gutter: 24px;
+		$value: $gutter/2;
+		margin: -$value;
+		.col-row {
+			padding: $value;
+		}
+	}
+}

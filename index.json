@@ -1,0 +1,46 @@
+[{
+    "rootdir": "dev/",
+    "heading": "Gulp4 Dev Index",
+    "list": [{
+        "name": "index",
+        "link": "index.htm"
+    }, {
+        "name": "detail-seller",
+        "link": "detail-seller.htm"
+    }, {
+        "name": "list-seller",
+        "link": "list-seller.htm"
+    }, {
+        "name": "entry-seller",
+        "link": "entry-seller.htm"
+    }, {
+        "name": "promote-seller",
+        "link": "promote-seller.htm"
+    }, {
+        "name": "treasure-seller",
+        "link": "treasure-seller.htm"
+    }, {
+        "name": "hongbao-seller",
+        "link": "hongbao-seller.htm"
+    }]
+}, {
+    "rootdir": "tmp/",
+    "heading": "Gulp4 Tmp Index",
+    "list": [{
+        "name": "Tmp Demo",
+        "link": "index.html"
+    }, {
+        "name": "Tmp Demo",
+        "link": "index.html#3"
+    }]
+}, {
+    "rootdir": "dev/tmp/",
+    "heading": "Gulp4 Dev/Tmp Resources",
+    "list": [{
+        "name": "Inner Res Demo",
+        "link": "index.html"
+    }, {
+        "name": "Inner Res Demo",
+        "link": "index.html#3"
+    }]
+}]
