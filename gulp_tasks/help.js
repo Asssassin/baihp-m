@@ -5,7 +5,7 @@ module.exports = (gulp, $, conf, tsk) => {
 
     const _tasks = {
         test : () => {
-            // console.log(target);
+            console.log(conf.path.i('templates')[0] + 'jade/**/*.jade');
             console.log(conf.path.i('', '**/*.scss', ['components/**/*.*', 'libs/**/*']));
         },
         help : () => {

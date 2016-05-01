@@ -14,11 +14,12 @@ module.exports = (gulp, $, conf, tsk) => {
                 }));
         },
         reload : () => {
-            let _ck = conf.sync;
+            let _ck = conf.sync,
+                _ck2 = conf.arg.live;
 
-            if (_ck === 'browserSync') {
+            if (_ck === 'browserSync' && ! _ck2) {
                 gulp.watch(_cf.src).on('change', $.browserSync.reload);
-            } else if (_ck === 'liveReload') {
+            } else if (_ck === 'liveReload' || _ck2) {
                 $.livereload.listen();
                 gulp.watch(_cf.src).on('change', tsk.listen.liveReload);
             }

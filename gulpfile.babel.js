@@ -6,6 +6,7 @@ let [gulp, $] = [require('gulp'), require('gulp-load-plugins')()];
 $.browserSync = require('browser-sync');
 $.argv = require('yargs').argv;
 $.del  = require('del');
+$.h2j = require('gulp-html2jade');
 
 /**
  * Task Files List
@@ -25,6 +26,7 @@ for (let n of tasks) tsk[n] = require(conf.path.root.tasks + n)(gulp, $, conf, t
 /** Utilities */
 gulp.task('cache', tsk.utilities.cache);
 gulp.task('clean', tsk.utilities.clean);
+gulp.task('h2j', tsk.utilities.h2j);
 gulp.task('zip', tsk.utilities.zip);
 
 /** Transfer */

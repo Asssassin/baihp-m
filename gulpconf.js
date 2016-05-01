@@ -134,6 +134,19 @@ module.exports = function ($) {
     config.arg  = _$;
 
     /**
+     * Codes Prettify
+     * @type {Object}
+     * braceStyle  [collapse-preserve-inline|collapse|expand|end-expand|none] ["collapse"]
+     */
+    config.prettify = {
+        indent  : 4,
+        indentChar : ' ',
+        preserveNewlines : false,
+        nindent : '    ',
+        braceStyle : 'none'
+    };
+
+    /**
      * Help Infomations
      * @type {Object}
      */
@@ -217,10 +230,11 @@ module.exports = function ($) {
      * @type {Object}
      */
     config.templates = {
-        src     : path.i('templates', '**/*.*', ['components/**/*.*']),
-        dest    : path.o('', path.dest.templates),
-        jade    : false,
-        include : true,
+        src      : path.i('templates', '**/*.*', ['components/**/*.*', 'html2jade/**/*.*']),
+        dest     : path.o('', path.dest.templates),
+        jade     : false,
+        include  : true,
+        prettify : true
     };
 
     /**

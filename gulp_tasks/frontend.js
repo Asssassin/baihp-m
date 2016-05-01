@@ -38,15 +38,24 @@ module.exports = (gulp, $, conf) => {
         },
         templates : () => {
             let _cf = conf.templates,
+                _cp = conf.prettify,
                 _suffix = '.min';
 
             return gulp.src(_cf.src)
-                .pipe($.if(_cf.jade, $.jade({pretty : true}))).on('error', console.log)
+                .pipe($.if(_cf.jade, $.jade({
+                    pretty : conf.prettify.nindent
+                }))).on('error', console.log)
                 .pipe($.if(_cf.include, $.include())).on('error', console.log)
+                .pipe($.if(_cf.prettify || conf.arg.prettify, $.prettify({
+                    indent_size : _cp.indent,
+                    preserve_newlines : false,
+                    end_with_newline : false,
+                    brace_style : _cp.braceStyle,
+                    space_after_anon_function : true
+                })))
                 .pipe($.changed(_cf.dest))
                 .pipe($.if(_ck,
                     $.replace(/(\<\!\-\-\smin\/[js|css]+\s\-\-\>\s+\<[script|link]+[\s\w\'\"\=]+[href|src]+[\=\'\"]+[\w\/\-\_]+)([\w\-\_\.]+)(\.[js|css]+[\"\s\w\/\>\<]+\<\!\-\-\smin\/[js|css]+\send\-\-\>)/g, '$1' + '$2' + _suffix + '$3')))
-                .pipe($.prettify({indent_size: 4}))
                 .pipe(gulp.dest(_cf.dest));
         }
     };

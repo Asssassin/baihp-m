@@ -16,6 +16,9 @@
 // Minify Some Type Of Files By Command  
 `$ gulp [styles | scripts | images] --min`
 
+// Use Livereload Plugin to auto reload files  
+`$ gulp watch --live`
+
 // Modify Rename Archived Project(.zip)  
 `$ gulp zip --rename`
 
@@ -37,14 +40,16 @@ Packing project to **./archive/**, name is *name.zip*
 
 #### All Of Tasks & Commands
 ###### Commands:
-- -d
+- -d            
 - -p
-- -t
+- -t           temporary directory
 - -t name
 - -t=name
 - --all
 - --min
 - --rename
+- --prettify   prettify codes
+- --live       use livereload mod
 
 ###### Tasks:
 ├─┬ build    
@@ -63,6 +68,7 @@ Packing project to **./archive/**, name is *name.zip*
  ├─┬ default    
  │ └─┬ <series>    
  │   └── help    
+ ├── h2j    
  ├── help    
  ├── images    
  ├── scripts    

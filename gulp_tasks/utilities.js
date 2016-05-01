@@ -15,6 +15,15 @@ module.exports = (gulp, $, conf) => {
                     console.log('Deleted files and folders:\n', paths.join('\n'));
                 });
         },
+        h2j   : () => {
+            let _cf = conf.path.i('templates')[0];
+
+            return gulp.src( _cf + 'html2jade/**/*.*')
+                .pipe($.h2j({
+                    nspaces : conf.prettify.indent
+                }))
+                .pipe(gulp.dest(_cf));
+        },
         zip   : () => {
             let _src  = conf.path.o(),
                 _tsp  = new Date().getTime(),
