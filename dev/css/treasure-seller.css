@@ -1,0 +1,131 @@
+/**************************************** mixin */
+/**
+ * Fonts: Size
+ */
+/**
+ * Color: Block
+ */
+/**
+ * Color: Text
+ */
+/**
+ * Extend
+ */
+.Wrapper main.Content .responese-text::before {
+  content: "";
+  height: inherit;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Wrapper header.Header {
+  background-color: #e5e5e5;
+  height: 48px;
+}
+
+.Wrapper header.Header .header-row::before {
+  display: none;
+}
+
+.Wrapper header.Header .header-row > i.header-back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #333;
+}
+
+.Wrapper header.Header .header-row > h1.heading {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 48px;
+  margin: 0;
+}
+
+.Wrapper main.Content {
+  background-color: whitesmoke;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.treasure-detail-list .bhp__tablebox--body {
+  -webkit-transition: height .25s;
+  transition: height .25s;
+}
+
+.treasure-detail-list .bhp__tablebox--footer {
+  font-size: 13px;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.treasure-detail-list .bhp__tablebox--footer > * {
+  display: block;
+  padding: 0 8px;
+}
+
+.treasure-detail-list .bhp__tablebox--footer .total-hongbao {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+     -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.Wrapper main.Content form.transfer-form {
+  display: none;
+  padding: 16px;
+  position: relative;
+  -webkit-transition: visibility .25s .25s, opacity .25s .25s;
+  transition: visibility .25s .25s, opacity .25s .25s;
+}
+
+.Wrapper main.Content form.transfer-form.on {
+  display: block;
+}
+
+.Wrapper main.Content form.transfer-form input[type="text"] {
+  width: 100%;
+}
+
+.Wrapper main.Content form.transfer-form label {
+  font-size: 13px;
+}
+
+.Wrapper main.Content .responese-text {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.76);
+  color: #FF8300;
+  font-size: 16px;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}
+
+.Wrapper main.Content .responese-text.on {
+  display: block;
+}

@@ -1,0 +1,120 @@
+/**************************************** mixin */
+/**
+ * Fonts: Size
+ */
+/**
+ * Color: Block
+ */
+/**
+ * Color: Text
+ */
+/**
+ * Extend
+ */
+.Wrapper .hongbao-footer-nav {
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.327);
+}
+
+.Wrapper header.Header {
+  background-color: #e5e5e5;
+  height: 48px;
+}
+
+.Wrapper header.Header .header-row::before {
+  display: none;
+}
+
+.Wrapper header.Header .header-row > i.header-back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #333;
+}
+
+.Wrapper header.Header .header-row > h1.heading {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 48px;
+  margin: 0;
+}
+
+.Wrapper .hongbao-footer-nav {
+  background-color: white;
+  height: 48px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  line-height: 48px;
+}
+
+.Wrapper .hongbao-footer-nav nav.hfn-wrapper {
+  height: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Wrapper .hongbao-footer-nav nav.hfn-wrapper a.item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  display: block;
+}
+
+.Wrapper main.Content {
+  background-color: whitesmoke;
+}
+
+.hongbao-detail-list .bhp__tablebox--body {
+  -webkit-transition: height .25s;
+  transition: height .25s;
+}
+
+.hongbao-detail-list .bhp__tablebox--footer {
+  font-size: 13px;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hongbao-detail-list .bhp__tablebox--footer > * {
+  display: block;
+  padding: 0 8px;
+}
+
+.hongbao-detail-list .bhp__tablebox--footer .total-hongbao {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+     -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.hongbao-help {
+  margin: 16px;
+}
+
+.hongbao-help h2.heading {
+  font-weight: initial;
+  margin: initial;
+  font-size: 16px;
+}
+
+.hongbao-help pre.content {
+  color: #666;
+  font-size: 13px;
+  line-height: 1;
+  margin: 0;
+}

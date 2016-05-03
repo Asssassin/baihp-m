@@ -347,7 +347,7 @@ html {
 			    line-height: 2.35;
 			}
 		    @at-root .bhp__tablebox--tr {
-		    	@extend %clear-both;
+		    	// @extend %clear-both;
 		    	width: 100%;
 		    	flex-direction: row;
 		    	flex-wrap: nowrap;
@@ -714,7 +714,7 @@ html {
 							display: flex;
 						    flex-direction: column;
 							.item {
-								@extend $clr_text--dark;
+								color: $clr_text--dark;
 								padding: 0 16px;
 								line-height: 2.35;
 								display: flex;

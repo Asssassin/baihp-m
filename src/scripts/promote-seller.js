@@ -37,23 +37,30 @@ jQuery(document).ready(function($) {
 		btns : $('.bhp__tab-fold--btns'),
 		btn : $('.bhp__tab-fold--btn'),
 		items : $('.bhp__tab-fold--items'),
+		wrapper : $('.bhp__tab-fold--wrapper'),
 		item : $('.bhp__tab-fold--item')
 	};
 
 	let upui = bhp_tab_fold;
-	touch.on(upui.btn, 'tap', function () {
+
+	touch.on(upui.btns, 'tap', upui.btn, function () {
 		const the = $(this);
 
 		let index  = the.index(),
 			parent = the.parent(),
-			matchItems = parent.next(upui.items),
-			matchItem  = matchItems.children(upui.item).eq(index);
+			aimItems = parent.next(upui.items),
+			tabIndex = parseInt(aimItems.attr('data-tab')),
+			aimWrap = aimItems.children(upui.wrapper),
+			aimItem  = aimWrap.children(upui.item).eq(index);
 
-		multiClass(matchItems, 'on');
-		console.log(matchItem);
+		aimItems.attr('data-tab', index);
+
+		if (aimItems.hasClass('on') && tabIndex === index) multiClass(aimItems, 'on', -1);
+		else multiClass(aimItems, 'on', +1);
+
+		if (tabIndex !== index) aimWrap.css('transform', 'translateX(-' + index * 100 + '%)');
 	});
 
-	console.log(upui);
 
 	let [uploadBar, uploadCon] = [
 		$('.upload-bar'),

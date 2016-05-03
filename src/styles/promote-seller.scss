@@ -178,77 +178,79 @@
 				background-color: hsl(0, 0%, 52%);
 				height: 0;
 				overflow: hidden;
-				display: flex;
 				&.on {
 					height: auto;
 					min-height: 1px;
 				}
-				.fuc-image, .fuc-video {
-					width: 100%;
-					flex: 0 0 auto;
-				}
-                .fuc-image {
-					padding: 16px 0;
-					// display: flex;
-					// flex-wrap: wrap;
-					overflow: hidden;
-					.item {
-						width: 33.333%;
-						color: hsla(0, 0%, 100%, 0.72);
-						padding: 8px;
-						position: relative;
-						float: left;
-						.pic {
-							background-size: cover;
-							background-position: center center;
-							border-radius: 2px;
+				.fuc-wrapper {
+					display: flex;
+					.fuc-image, .fuc-video {
+						width: 100%;
+						flex: 0 0 auto;
+					}
+					.fuc-image {
+						padding: 16px 0;
+						// display: flex;
+						// flex-wrap: wrap;
+						overflow: hidden;
+						.item {
+							width: 33.333%;
+							color: hsla(0, 0%, 100%, 0.72);
+							padding: 8px;
 							position: relative;
-							&::after {
-								content: "";
-								background-color: hsla(0, 0%, 52%, 0.67);
-								height: 100%;
-								width: 100%;
-								left: 0;
-								top: 0;
-								position: absolute;
+							float: left;
+							.pic {
+								background-size: cover;
+								background-position: center center;
+								border-radius: 2px;
+								position: relative;
+								&::after {
+									content: "";
+									background-color: hsla(0, 0%, 52%, 0.67);
+									height: 100%;
+									width: 100%;
+									left: 0;
+									top: 0;
+									position: absolute;
+								}
 							}
-						}
-						.close {
-							right: -4px;
-						    top: -4px;
-						    position: absolute;
-						    color: hsla(0, 0%, 100%, 0.62);
-						    padding: 8px;
-							&::before {
-								background-color: hsla(0, 0%, 34%, 0.43);
-								border-radius: 50%;
-							}
-						}
-						.hint {
-							width: 100%;
-							font-size: $ft_sz--middle;
-						    margin-top: -7px;
-						    padding: 0 .35em;
-							text-align: center;
-							left: 0;
-							top: 50%;
-							position: absolute;
-						}
-						&.addition {
-							.text {
+							.close {
+								right: -4px;
+								top: -4px;
 								position: absolute;
-								top: 50%;
-								margin-top: -1em;
+								color: hsla(0, 0%, 100%, 0.62);
+								padding: 8px;
+								&::before {
+									background-color: hsla(0, 0%, 34%, 0.43);
+									border-radius: 50%;
+								}
+							}
+							.hint {
 								width: 100%;
+								font-size: $ft_sz--middle;
+								margin-top: -7px;
+								padding: 0 .35em;
 								text-align: center;
 								left: 0;
-							}
-							> input[type="file"] {
-								height: 100%;
-								opacity: 0;
-								left: 0;
-								top: 0;
+								top: 50%;
 								position: absolute;
+							}
+							&.addition {
+								.text {
+									position: absolute;
+									top: 50%;
+									margin-top: -1em;
+									width: 100%;
+									text-align: center;
+									left: 0;
+								}
+								> input[type="file"] {
+									height: 100%;
+									opacity: 0;
+									left: 0;
+									top: 0;
+									position: absolute;
+								}
 							}
 						}
 					}

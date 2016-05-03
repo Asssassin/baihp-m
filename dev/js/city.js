@@ -1,0 +1,2160 @@
+[{
+    "CityID": 1,
+    "name": "北京",
+    "ProID": 1,
+    "CitySort": 1,
+	"Citylink": "bj"
+}, {
+    "CityID": 2,
+    "name": "天津",
+    "ProID": 2,
+    "CitySort": 2 ,
+	"Citylink": "tj"
+}, {
+    "CityID": 3,
+    "name": "上海",
+    "ProID": 9,
+    "CitySort": 3,
+	"Citylink": "sh"
+}, {
+    "CityID": 4,
+    "name": "重庆",
+    "ProID": 27,
+    "CitySort": 4,
+	"Citylink": "cq"
+}, {
+    "CityID": 5,
+    "name": "邯郸",
+    "ProID": 3,
+    "CitySort": 5,
+	"Citylink": "hd"
+}, {
+    "CityID": 6,
+    "name": "石家庄",
+    "ProID": 3,
+    "CitySort": 6,
+	"Citylink": "sjz"
+}, {
+    "CityID": 7,
+    "name": "保定",
+    "ProID": 3,
+    "CitySort": 7,
+	"Citylink": "bd"
+}, {
+    "CityID": 8,
+    "name": "张家口",
+    "ProID": 3,
+    "CitySort": 8,
+	"Citylink": "zjk"
+}, {
+    "CityID": 9,
+    "name": "承德",
+    "ProID": 3,
+    "CitySort": 9,
+	"Citylink": "chengde"
+}, {
+    "CityID": 10,
+    "name": "唐山",
+    "ProID": 3,
+    "CitySort": 10,
+	"Citylink": "ts"
+}, {
+    "CityID": 11,
+    "name": "廊坊",
+    "ProID": 3,
+    "CitySort": 11,
+	"Citylink": "lf"
+}, {
+    "CityID": 12,
+    "name": "沧州",
+    "ProID": 3,
+    "CitySort": 12,
+	"Citylink": "cangzhou"
+}, {
+    "CityID": 13,
+    "name": "衡水",
+    "ProID": 3,
+    "CitySort": 13 ,
+	"Citylink": "hs"
+}, {
+    "CityID": 14,
+    "name": "邢台",
+    "ProID": 3,
+    "CitySort": 14,
+	"Citylink": "xt"
+}, {
+    "CityID": 16,
+    "name": "朔州",
+    "ProID": 4,
+    "CitySort": 16,
+	"Citylink": "shuozhou"
+}, {
+    "CityID": 17,
+    "name": "忻州",
+    "ProID": 4,
+    "CitySort": 17,
+	"Citylink": "xinzhou"
+}, {
+    "CityID": 18,
+    "name": "太原",
+    "ProID": 4,
+    "CitySort": 18,
+	"Citylink": "ty"
+}, {
+    "CityID": 19,
+    "name": "大同",
+    "ProID": 4,
+    "CitySort": 19,
+	"Citylink": "dt"
+}, {
+    "CityID": 20,
+    "name": "阳泉",
+    "ProID": 4,
+    "CitySort": 20,
+	"Citylink": "yq"
+}, {
+    "CityID": 21,
+    "name": "晋中",
+    "ProID": 4,
+    "CitySort": 21,
+	"Citylink": "jz"
+}, {
+    "CityID": 22,
+    "name": "长治",
+    "ProID": 4,
+    "CitySort": 22,
+	"Citylink": "changzhi"
+}, {
+    "CityID": 23,
+    "name": "晋城",
+    "ProID": 4,
+    "CitySort": 23  ,
+	"Citylink": "jincheng"
+}, {
+    "CityID": 24,
+    "name": "临汾",
+    "ProID": 4,
+    "CitySort": 24,
+	"Citylink": "linfen"
+}, {
+    "CityID": 25,
+    "name": "吕梁",
+    "ProID": 4,
+    "CitySort": 25,
+	"Citylink": "lvliang"
+}, {
+    "CityID": 26,
+    "name": "运城",
+    "ProID": 4,
+    "CitySort": 26,
+	"Citylink": "yuncheng"
+}, {
+    "CityID": 27,
+    "name": "沈阳",
+    "ProID": 6,
+    "CitySort": 27,
+	"Citylink": "sy"
+}, {
+    "CityID": 28,
+    "name": "铁岭",
+    "ProID": 6,
+    "CitySort": 28,
+	"Citylink": "tl"
+}, {
+    "CityID": 29,
+    "name": "大连",
+    "ProID": 6,
+    "CitySort": 29,
+	"Citylink": "dl"
+}, {
+    "CityID": 30,
+    "name": "鞍山",
+    "ProID": 6,
+    "CitySort": 30,
+	"Citylink": "as"
+}, {
+    "CityID": 31,
+    "name": "抚顺",
+    "ProID": 6,
+    "CitySort": 31,
+	"Citylink": "fushun"
+}, {
+    "CityID": 32,
+    "name": "本溪",
+    "ProID": 6,
+    "CitySort": 32,
+	"Citylink": "benxi"
+}, {
+    "CityID": 33,
+    "name": "丹东",
+    "ProID": 6,
+    "CitySort": 33,
+	"Citylink": "dandong"
+}, {
+    "CityID": 34,
+    "name": "锦州",
+    "ProID": 6,
+    "CitySort": 34,
+	"Citylink": "jinzhou"
+}, {
+    "CityID": 35,
+    "name": "营口",
+    "ProID": 6,
+    "CitySort": 35,
+	"Citylink": "yk"
+}, {
+    "CityID": 36,
+    "name": "阜新",
+    "ProID": 6,
+    "CitySort": 36,
+	"Citylink": "fx"
+}, {
+    "CityID": 37,
+    "name": "辽阳",
+    "ProID": 6,
+    "CitySort": 37,
+	"Citylink": "liaoyang"
+}, {
+    "CityID": 38,
+    "name": "朝阳",
+    "ProID": 6,
+    "CitySort": 38,
+	"Citylink": "cy"
+}, {
+    "CityID": 39,
+    "name": "盘锦",
+    "ProID": 6,
+    "CitySort": 39,
+	"Citylink": "pj"
+}, {
+    "CityID": 40,
+    "name": "葫芦岛",
+    "ProID": 6,
+    "CitySort": 40,
+	"Citylink": "hld"
+}, {
+    "CityID": 41,
+    "name": "长春",
+    "ProID": 7,
+    "CitySort": 41,
+	"Citylink": "cc"
+}, {
+    "CityID": 42,
+    "name": "吉林",
+    "ProID": 7,
+    "CitySort": 42,
+	"Citylink": "jl"
+}, {
+    "CityID": 43,
+    "name": "延边",
+    "ProID": 7,
+    "CitySort": 43,
+	"Citylink": "yanbian"
+}, {
+    "CityID": 44,
+    "name": "四平",
+    "ProID": 7,
+    "CitySort": 44,
+	"Citylink": "sp"
+}, {
+    "CityID": 45,
+    "name": "通化",
+    "ProID": 7,
+    "CitySort": 45,
+	"Citylink": "th"
+}, {
+    "CityID": 46,
+    "name": "白城",
+    "ProID": 7,
+    "CitySort": 46,
+	"Citylink": "bc"
+}, {
+    "CityID": 47,
+    "name": "辽源",
+    "ProID": 7,
+    "CitySort": 47,
+	"Citylink": "liaoyuan"
+}, {
+    "CityID": 48,
+    "name": "松原",
+    "ProID": 7,
+    "CitySort": 48,
+	"Citylink": "songyuan"
+}, {
+    "CityID": 49,
+    "name": "白山",
+    "ProID": 7,
+    "CitySort": 49,
+	"Citylink": "baishan"
+}, {
+    "CityID": 50,
+    "name": "哈尔滨",
+    "ProID": 8,
+    "CitySort": 50,
+	"Citylink": "hrb"
+}, {
+    "CityID": 51,
+    "name": "齐齐哈尔",
+    "ProID": 8,
+    "CitySort": 51,
+	"Citylink": "qqhr"
+}, {
+    "CityID": 52,
+    "name": "鸡西",
+    "ProID": 8,
+    "CitySort": 52,
+	"Citylink": "jixi"
+}, {
+    "CityID": 53,
+    "name": "牡丹江",
+    "ProID": 8,
+    "CitySort": 53,
+	"Citylink": "mdj"
+}, {
+    "CityID": 54,
+    "name": "七台河",
+    "ProID": 8,
+    "CitySort": 54,
+	"Citylink": "qth"
+}, {
+    "CityID": 55,
+    "name": "佳木斯",
+    "ProID": 8,
+    "CitySort": 55,
+	"Citylink": "jms"
+}, {
+    "CityID": 56,
+    "name": "鹤岗",
+    "ProID": 8,
+    "CitySort": 56,
+	"Citylink": "hegang"
+}, {
+    "CityID": 57,
+    "name": "双鸭山",
+    "ProID": 8,
+    "CitySort": 57,
+	"Citylink": "sys"
+}, {
+    "CityID": 58,
+    "name": "绥化",
+    "ProID": 8,
+    "CitySort": 58,
+	"Citylink": "suihua"
+}, {
+    "CityID": 59,
+    "name": "黑河",
+    "ProID": 8,
+    "CitySort": 59,
+	"Citylink": "heihe"
+}, {
+    "CityID": 60,
+    "name": "大兴安岭",
+    "ProID": 8,
+    "CitySort": 60,
+	"Citylink": "dxal"
+}, {
+    "CityID": 61,
+    "name": "伊春",
+    "ProID": 8,
+    "CitySort": 61,
+	"Citylink": "yich"
+}, {
+    "CityID": 62,
+    "name": "大庆",
+    "ProID": 8,
+    "CitySort": 62,
+	"Citylink": "dq"
+}, {
+    "CityID": 63,
+    "name": "南京",
+    "ProID": 10,
+    "CitySort": 63,
+	"Citylink": "nj"
+}, {
+    "CityID": 64,
+    "name": "无锡",
+    "ProID": 10,
+    "CitySort": 64,
+	"Citylink": "wx"
+}, {
+    "CityID": 65,
+    "name": "镇江",
+    "ProID": 10,
+    "CitySort": 65,
+	"Citylink": "zj"
+}, {
+    "CityID": 66,
+    "name": "苏州",
+    "ProID": 10,
+    "CitySort": 66,
+	"Citylink": "su"
+}, {
+    "CityID": 67,
+    "name": "南通",
+    "ProID": 10,
+    "CitySort": 67,
+	"Citylink": "nt"
+}, {
+    "CityID": 68,
+    "name": "扬州",
+    "ProID": 10,
+    "CitySort": 68,
+	"Citylink": "yz"
+}, {
+    "CityID": 69,
+    "name": "盐城",
+    "ProID": 10,
+    "CitySort": 69,
+	"Citylink": "yancheng"
+}, {
+    "CityID": 70,
+    "name": "徐州",
+    "ProID": 10,
+    "CitySort": 70,
+	"Citylink": "xz"
+}, {
+    "CityID": 71,
+    "name": "淮安",
+    "ProID": 10,
+    "CitySort": 71,
+	"Citylink": "ha"
+}, {
+    "CityID": 72,
+    "name": "连云港",
+    "ProID": 10,
+    "CitySort": 72,
+	"Citylink": "lyg"
+}, {
+    "CityID": 73,
+    "name": "常州",
+    "ProID": 10,
+    "CitySort": 73,
+	"Citylink": "cz"
+}, {
+    "CityID": 74,
+    "name": "泰州",
+    "ProID": 10,
+    "CitySort": 74,
+	"Citylink": "taizhou"
+}, {
+    "CityID": 75,
+    "name": "宿迁",
+    "ProID": 10,
+    "CitySort": 75,
+	"Citylink": "suqian"
+}, {
+    "CityID": 76,
+    "name": "舟山",
+    "ProID": 11,
+    "CitySort": 76,
+	"Citylink": "zhoushan"
+}, {
+    "CityID": 77,
+    "name": "衢州",
+    "ProID": 11,
+    "CitySort": 77,
+	"Citylink": "quzhou"
+}, {
+    "CityID": 78,
+    "name": "杭州",
+    "ProID": 11,
+    "CitySort": 78,
+	"Citylink": "hz"
+}, {
+    "CityID": 79,
+    "name": "湖州",
+    "ProID": 11,
+    "CitySort": 79,
+	"Citylink": "huzhou"
+}, {
+    "CityID": 80,
+    "name": "嘉兴",
+    "ProID": 11,
+    "CitySort": 80,
+	"Citylink": "jx"
+}, {
+    "CityID": 81,
+    "name": "宁波",
+    "ProID": 11,
+    "CitySort": 81,
+	"Citylink": "nb"
+}, {
+    "CityID": 82,
+    "name": "绍兴",
+    "ProID": 11,
+    "CitySort": 82,
+	"Citylink": "sx"
+}, {
+    "CityID": 83,
+    "name": "温州",
+    "ProID": 11,
+    "CitySort": 83,
+	"Citylink": "wz"
+}, {
+    "CityID": 84,
+    "name": "丽水",
+    "ProID": 11,
+    "CitySort": 84,
+	"Citylink": "lishui"
+}, {
+    "CityID": 85,
+    "name": "金华",
+    "ProID": 11,
+    "CitySort": 85,
+	"Citylink": "jh"
+}, {
+    "CityID": 86,
+    "name": "台州",
+    "ProID": 11,
+    "CitySort": 86,
+	"Citylink": "tz"
+}, {
+    "CityID": 87,
+    "name": "合肥",
+    "ProID": 12,
+    "CitySort": 87,
+	"Citylink": "hf"
+}, {
+    "CityID": 88,
+    "name": "芜湖",
+    "ProID": 12,
+    "CitySort": 88,
+	"Citylink": "wuhu"
+}, {
+    "CityID": 89,
+    "name": "蚌埠",
+    "ProID": 12,
+    "CitySort": 89,
+	"Citylink": "bengbu"
+}, {
+    "CityID": 90,
+    "name": "淮南",
+    "ProID": 12,
+    "CitySort": 90,
+	"Citylink": "hn"
+}, {
+    "CityID": 91,
+    "name": "马鞍山",
+    "ProID": 12,
+    "CitySort": 91,
+	"Citylink": "mas"
+}, {
+    "CityID": 92,
+    "name": "淮北",
+    "ProID": 12,
+    "CitySort": 92,
+	"Citylink": "huaibei"
+}, {
+    "CityID": 93,
+    "name": "铜陵",
+    "ProID": 12,
+    "CitySort": 93,
+	"Citylink": "tongling"
+}, {
+    "CityID": 94,
+    "name": "安庆",
+    "ProID": 12,
+    "CitySort": 94,
+	"Citylink": "anqing"
+}, {
+    "CityID": 95,
+    "name": "黄山",
+    "ProID": 12,
+    "CitySort": 95,
+	"Citylink": "huangshan"
+}, {
+    "CityID": 96,
+    "name": "滁州",
+    "ProID": 12,
+    "CitySort": 96,
+	"Citylink": "chuzhou"
+}, {
+    "CityID": 97,
+    "name": "阜阳",
+    "ProID": 12,
+    "CitySort": 97,
+	"Citylink": "fy"
+}, {
+    "CityID": 98,
+    "name": "宿州",
+    "ProID": 12,
+    "CitySort": 98,
+	"Citylink": "suzhou"
+}, {
+    "CityID": 99,
+    "name": "巢湖",
+    "ProID": 12,
+    "CitySort": 99,
+	"Citylink": "ch"
+}, {
+    "CityID": 100,
+    "name": "六安",
+    "ProID": 12,
+    "CitySort": 100,
+	"Citylink": "la"
+}, {
+    "CityID": 101,
+    "name": "亳州",
+    "ProID": 12,
+    "CitySort": 101,
+	"Citylink": "bozhou"
+}, {
+    "CityID": 102,
+    "name": "池州",
+    "ProID": 12,
+    "CitySort": 102,
+	"Citylink": "chizhou"
+}, {
+    "CityID": 103,
+    "name": "宣城",
+    "ProID": 12,
+    "CitySort": 103,
+	"Citylink": "xuancheng"
+}, {
+    "CityID": 104,
+    "name": "福州",
+    "ProID": 13,
+    "CitySort": 104,
+	"Citylink": "fz"
+}, {
+    "CityID": 105,
+    "name": "厦门",
+    "ProID": 13,
+    "CitySort": 105,
+	"Citylink": "xm"
+}, {
+    "CityID": 106,
+    "name": "宁德",
+    "ProID": 13,
+    "CitySort": 106,
+	"Citylink": "nd"
+}, {
+    "CityID": 107,
+    "name": "莆田",
+    "ProID": 13,
+    "CitySort": 107,
+	"Citylink": "pt"
+}, {
+    "CityID": 108,
+    "name": "泉州",
+    "ProID": 13,
+    "CitySort": 108,
+	"Citylink": "qz"
+}, {
+    "CityID": 109,
+    "name": "漳州",
+    "ProID": 13,
+    "CitySort": 109,
+	"Citylink": "zhangzhou"
+}, {
+    "CityID": 110,
+    "name": "龙岩",
+    "ProID": 13,
+    "CitySort": 110,
+	"Citylink": "ly"
+}, {
+    "CityID": 111,
+    "name": "三明",
+    "ProID": 13,
+    "CitySort": 111,
+	"Citylink": "sm"
+}, {
+    "CityID": 112,
+    "name": "南平",
+    "ProID": 13,
+    "CitySort": 112,
+	"Citylink": "np"
+}, {
+    "CityID": 113,
+    "name": "鹰潭",
+    "ProID": 14,
+    "CitySort": 113,
+	"Citylink": "yingtan"
+}, {
+    "CityID": 114,
+    "name": "新余",
+    "ProID": 14,
+    "CitySort": 114,
+	"Citylink": "xinyu"
+}, {
+    "CityID": 115,
+    "name": "南昌",
+    "ProID": 14,
+    "CitySort": 115,
+	"Citylink": "nc"
+}, {
+    "CityID": 116,
+    "name": "九江",
+    "ProID": 14,
+    "CitySort": 116,
+	"Citylink": "jj"
+}, {
+    "CityID": 117,
+    "name": "上饶",
+    "ProID": 14,
+    "CitySort": 117,
+	"Citylink": "sr"
+}, {
+    "CityID": 118,
+    "name": "抚州",
+    "ProID": 14,
+    "CitySort": 118,
+	"Citylink": "fuzhou"
+}, {
+    "CityID": 119,
+    "name": "宜春",
+    "ProID": 14,
+    "CitySort": 119,
+	"Citylink": "yichun"
+}, {
+    "CityID": 120,
+    "name": "吉安",
+    "ProID": 14,
+    "CitySort": 120,
+	"Citylink": "ja"
+}, {
+    "CityID": 121,
+    "name": "赣州",
+    "ProID": 14,
+    "CitySort": 121,
+	"Citylink": "ganzhou"
+}, {
+    "CityID": 122,
+    "name": "景德镇",
+    "ProID": 14,
+    "CitySort": 122,
+	"Citylink": "jdz"
+}, {
+    "CityID": 123,
+    "name": "萍乡",
+    "ProID": 14,
+    "CitySort": 123,
+	"Citylink": "px"
+}, {
+    "CityID": 124,
+    "name": "菏泽",
+    "ProID": 15,
+    "CitySort": 124,
+	"Citylink": "heze"
+}, {
+    "CityID": 125,
+    "name": "济南",
+    "ProID": 15,
+    "CitySort": 125,
+	"Citylink": "jn"
+}, {
+    "CityID": 126,
+    "name": "青岛",
+    "ProID": 15,
+    "CitySort": 126,
+	"Citylink": "qd"
+}, {
+    "CityID": 127,
+    "name": "淄博",
+    "ProID": 15,
+    "CitySort": 127,
+	"Citylink": "zb"
+}, {
+    "CityID": 128,
+    "name": "德州",
+    "ProID": 15,
+    "CitySort": 128,
+	"Citylink": "dz"
+}, {
+    "CityID": 129,
+    "name": "烟台",
+    "ProID": 15,
+    "CitySort": 129,
+	"Citylink": "yt"
+}, {
+    "CityID": 130,
+    "name": "潍坊",
+    "ProID": 15,
+    "CitySort": 130,
+	"Citylink": "wf"
+}, {
+    "CityID": 131,
+    "name": "济宁",
+    "ProID": 15,
+    "CitySort": 131,
+	"Citylink": "jining"
+}, {
+    "CityID": 132,
+    "name": "泰安",
+    "ProID": 15,
+    "CitySort": 132,
+	"Citylink": "taian"
+}, {
+    "CityID": 133,
+    "name": "临沂",
+    "ProID": 15,
+    "CitySort": 133,
+	"Citylink": "linyi"
+}, {
+    "CityID": 134,
+    "name": "滨州",
+    "ProID": 15,
+    "CitySort": 134,
+	"Citylink": "bz"
+}, {
+    "CityID": 135,
+    "name": "东营",
+    "ProID": 15,
+    "CitySort": 135,
+	"Citylink": "dy"
+}, {
+    "CityID": 136,
+    "name": "威海",
+    "ProID": 15,
+    "CitySort": 136,
+	"Citylink": "weihai"
+}, {
+    "CityID": 137,
+    "name": "枣庄",
+    "ProID": 15,
+    "CitySort": 137,
+	"Citylink": "zaozhuang"
+}, {
+    "CityID": 138,
+    "name": "日照",
+    "ProID": 15,
+    "CitySort": 138,
+	"Citylink": "rz"
+}, {
+    "CityID": 139,
+    "name": "莱芜",
+    "ProID": 15,
+    "CitySort": 139,
+	"Citylink": "lw"
+}, {
+    "CityID": 140,
+    "name": "聊城",
+    "ProID": 15,
+    "CitySort": 140,
+	"Citylink": "lc"
+}, {
+    "CityID": 141,
+    "name": "商丘",
+    "ProID": 16,
+    "CitySort": 141,
+	"Citylink": "sq"
+}, {
+    "CityID": 142,
+    "name": "郑州",
+    "ProID": 16,
+    "CitySort": 142,
+	"Citylink": "zz"
+}, {
+    "CityID": 143,
+    "name": "安阳",
+    "ProID": 16,
+    "CitySort": 143,
+	"Citylink": "ay"
+}, {
+    "CityID": 144,
+    "name": "新乡",
+    "ProID": 16,
+    "CitySort": 144,
+	"Citylink": "xx"
+}, {
+    "CityID": 145,
+    "name": "许昌",
+    "ProID": 16,
+    "CitySort": 145,
+	"Citylink": "xc"
+}, {
+    "CityID": 146,
+    "name": "平顶山",
+    "ProID": 16,
+    "CitySort": 146,
+	"Citylink": "pds"
+}, {
+    "CityID": 147,
+    "name": "信阳",
+    "ProID": 16,
+    "CitySort": 147,
+	"Citylink": "xy"
+}, {
+    "CityID": 148,
+    "name": "南阳",
+    "ProID": 16,
+    "CitySort": 148,
+	"Citylink": "ny"
+}, {
+    "CityID": 149,
+    "name": "开封",
+    "ProID": 16,
+    "CitySort": 149,
+	"Citylink": "kaifeng"
+}, {
+    "CityID": 150,
+    "name": "洛阳",
+    "ProID": 16,
+    "CitySort": 150,
+	"Citylink": "luoyang"
+}, {
+    "CityID": 151,
+    "name": "济源",
+    "ProID": 16,
+    "CitySort": 151,
+	"Citylink": "jy"
+}, {
+    "CityID": 152,
+    "name": "焦作",
+    "ProID": 16,
+    "CitySort": 152,
+	"Citylink": "jiaozuo"
+}, {
+    "CityID": 153,
+    "name": "鹤壁",
+    "ProID": 16,
+    "CitySort": 153,
+	"Citylink": "hb"
+}, {
+    "CityID": 154,
+    "name": "濮阳",
+    "ProID": 16,
+    "CitySort": 154,
+	"Citylink": "puyang"
+}, {
+    "CityID": 155,
+    "name": "周口",
+    "ProID": 16,
+    "CitySort": 155,
+	"Citylink": "zk"
+}, {
+    "CityID": 156,
+    "name": "漯河",
+    "ProID": 16,
+    "CitySort": 156,
+	"Citylink": "luohe"
+}, {
+    "CityID": 157,
+    "name": "驻马店",
+    "ProID": 16,
+    "CitySort": 157,
+	"Citylink": "zmd"
+}, {
+    "CityID": 158,
+    "name": "三门峡",
+    "ProID": 16,
+    "CitySort": 158,
+	"Citylink": "smx"
+}, {
+    "CityID": 159,
+    "name": "武汉",
+    "ProID": 17,
+    "CitySort": 159,
+	"Citylink": "wh"
+}, {
+    "CityID": 160,
+    "name": "襄樊",
+    "ProID": 17,
+    "CitySort": 160,
+	"Citylink": "xiangfan"
+}, {
+    "CityID": 161,
+    "name": "鄂州",
+    "ProID": 17,
+    "CitySort": 161,
+	"Citylink": "ez"
+}, {
+    "CityID": 162,
+    "name": "孝感",
+    "ProID": 17,
+    "CitySort": 162,
+	"Citylink": "xiaogan"
+}, {
+    "CityID": 163,
+    "name": "黄冈",
+    "ProID": 17,
+    "CitySort": 163,
+	"Citylink": "hg"
+}, {
+    "CityID": 164,
+    "name": "黄石",
+    "ProID": 17,
+    "CitySort": 164,
+	"Citylink": "hshi"
+}, {
+    "CityID": 165,
+    "name": "咸宁",
+    "ProID": 17,
+    "CitySort": 165,
+	"Citylink": "xianning"
+}, {
+    "CityID": 166,
+    "name": "荆州",
+    "ProID": 17,
+    "CitySort": 166,
+	"Citylink": "jingzhou"
+}, {
+    "CityID": 167,
+    "name": "宜昌",
+    "ProID": 17,
+    "CitySort": 167,
+	"Citylink": "yc"
+}, {
+    "CityID": 168,
+    "name": "恩施",
+    "ProID": 17,
+    "CitySort": 168,
+	"Citylink": "es"
+}, {
+    "CityID": 169,
+    "name": "神农架",
+    "ProID": 17,
+    "CitySort": 169,
+	"Citylink": "snj"
+}, {
+    "CityID": 170,
+    "name": "十堰",
+    "ProID": 17,
+    "CitySort": 170,
+	"Citylink": "shiyan"
+}, {
+    "CityID": 171,
+    "name": "随州",
+    "ProID": 17,
+    "CitySort": 171,
+	"Citylink": "suizhou"
+}, {
+    "CityID": 172,
+    "name": "荆门",
+    "ProID": 17,
+    "CitySort": 172,
+	"Citylink": "jingmen"
+}, {
+    "CityID": 173,
+    "name": "仙桃",
+    "ProID": 17,
+    "CitySort": 173,
+	"Citylink": "xiantao"
+}, {
+    "CityID": 174,
+    "name": "天门",
+    "ProID": 17,
+    "CitySort": 174,
+	"Citylink": "tianmen"
+}, {
+    "CityID": 175,
+    "name": "潜江",
+    "ProID": 17,
+    "CitySort": 175,
+	"Citylink": "qingjiang"
+}, {
+    "CityID": 176,
+    "name": "岳阳",
+    "ProID": 18,
+    "CitySort": 176,
+	"Citylink": "yy"
+}, {
+    "CityID": 177,
+    "name": "长沙",
+    "ProID": 18,
+    "CitySort": 177,
+	"Citylink": "cs"
+}, {
+    "CityID": 178,
+    "name": "湘潭",
+    "ProID": 18,
+    "CitySort": 178,
+	"Citylink": "xiangtan"
+}, {
+    "CityID": 179,
+    "name": "株洲",
+    "ProID": 18,
+    "CitySort": 179,
+	"Citylink": "zhuzhou"
+}, {
+    "CityID": 180,
+    "name": "衡阳",
+    "ProID": 18,
+    "CitySort": 180,
+	"Citylink": "hy"
+}, {
+    "CityID": 181,
+    "name": "郴州",
+    "ProID": 18,
+    "CitySort": 181,
+	"Citylink": "chenzhou"
+}, {
+    "CityID": 182,
+    "name": "常德",
+    "ProID": 18,
+    "CitySort": 182,
+	"Citylink": "changde"
+}, {
+    "CityID": 183,
+    "name": "益阳",
+    "ProID": 18,
+    "CitySort": 183,
+	"Citylink": "yiyang"
+}, {
+    "CityID": 184,
+    "name": "娄底",
+    "ProID": 18,
+    "CitySort": 184,
+	"Citylink": "ld"
+}, {
+    "CityID": 185,
+    "name": "邵阳",
+    "ProID": 18,
+    "CitySort": 185,
+	"Citylink": "shaoyang"
+}, {
+    "CityID": 186,
+    "name": "湘西",
+    "ProID": 18,
+    "CitySort": 186,
+	"Citylink": "xiangxi"
+}, {
+    "CityID": 187,
+    "name": "张家界",
+    "ProID": 18,
+    "CitySort": 187,
+	"Citylink": "zjj"
+}, {
+    "CityID": 188,
+    "name": "怀化",
+    "ProID": 18,
+    "CitySort": 188,
+	"Citylink": "hh"
+}, {
+    "CityID": 189,
+    "name": "永州",
+    "ProID": 18,
+    "CitySort": 189,
+	"Citylink": "yongzhou"
+}, {
+    "CityID": 190,
+    "name": "广州",
+    "ProID": 19,
+    "CitySort": 190,
+	"Citylink": "gz"
+}, {
+    "CityID": 191,
+    "name": "汕尾",
+    "ProID": 19,
+    "CitySort": 191,
+	"Citylink": "sw"
+}, {
+    "CityID": 192,
+    "name": "阳江",
+    "ProID": 19,
+    "CitySort": 192,
+	"Citylink": "yj"
+}, {
+    "CityID": 193,
+    "name": "揭阳",
+    "ProID": 19,
+    "CitySort": 193,
+	"Citylink": "jy"
+}, {
+    "CityID": 194,
+    "name": "茂名",
+    "ProID": 19,
+    "CitySort": 194,
+	"Citylink": "mm"
+}, {
+    "CityID": 195,
+    "name": "惠州",
+    "ProID": 19,
+    "CitySort": 195,
+	"Citylink": "huizhou"
+}, {
+    "CityID": 196,
+    "name": "江门",
+    "ProID": 19,
+    "CitySort": 196 ,
+	"Citylink": "jm"
+}, {
+    "CityID": 197,
+    "name": "韶关",
+    "ProID": 19,
+    "CitySort": 197,
+	"Citylink": "sg"
+}, {
+    "CityID": 198,
+    "name": "梅州",
+    "ProID": 19,
+    "CitySort": 198,
+	"Citylink": "mz"
+}, {
+    "CityID": 199,
+    "name": "汕头",
+    "ProID": 19,
+    "CitySort": 199,
+	"Citylink": "st"
+}, {
+    "CityID": 200,
+    "name": "深圳",
+    "ProID": 19,
+    "CitySort": 200,
+	"Citylink": "sz"
+}, {
+    "CityID": 201,
+    "name": "珠海",
+    "ProID": 19,
+    "CitySort": 201,
+	"Citylink": "zh"
+}, {
+    "CityID": 202,
+    "name": "佛山",
+    "ProID": 19,
+    "CitySort": 202,
+	"Citylink": "fs"
+}, {
+    "CityID": 203,
+    "name": "肇庆",
+    "ProID": 19,
+    "CitySort": 203,
+	"Citylink": "zq"
+}, {
+    "CityID": 204,
+    "name": "湛江",
+    "ProID": 19,
+    "CitySort": 204,
+	"Citylink": "zhanjiang"
+}, {
+    "CityID": 205,
+    "name": "中山",
+    "ProID": 19,
+    "CitySort": 205,
+	"Citylink": "zs"
+}, {
+    "CityID": 206,
+    "name": "河源",
+    "ProID": 19,
+    "CitySort": 206,
+	"Citylink": "heyuan"
+}, {
+    "CityID": 207,
+    "name": "清远",
+    "ProID": 19,
+    "CitySort": 207,
+	"Citylink": "qingyuan"
+}, {
+    "CityID": 208,
+    "name": "云浮",
+    "ProID": 19,
+    "CitySort": 208,
+	"Citylink": "yf"
+}, {
+    "CityID": 209,
+    "name": "潮州",
+    "ProID": 19,
+    "CitySort": 209,
+	"Citylink": "chaozhou"
+}, {
+    "CityID": 210,
+    "name": "东莞",
+    "ProID": 19,
+    "CitySort": 210,
+	"Citylink": "dg"
+}, {
+    "CityID": 211,
+    "name": "兰州",
+    "ProID": 22,
+    "CitySort": 211,
+	"Citylink": "lz"
+}, {
+    "CityID": 212,
+    "name": "金昌",
+    "ProID": 22,
+    "CitySort": 212,
+	"Citylink": "jinchang"
+}, {
+    "CityID": 213,
+    "name": "白银",
+    "ProID": 22,
+    "CitySort": 213,
+	"Citylink": "by"
+}, {
+    "CityID": 214,
+    "name": "天水",
+    "ProID": 22,
+    "CitySort": 214,
+	"Citylink": "tianshui"
+}, {
+    "CityID": 215,
+    "name": "嘉峪关",
+    "ProID": 22,
+    "CitySort": 215,
+	"Citylink": "jyg"
+}, {
+    "CityID": 216,
+    "name": "武威",
+    "ProID": 22,
+    "CitySort": 216,
+	"Citylink": "wuwei"
+}, {
+    "CityID": 217,
+    "name": "张掖",
+    "ProID": 22,
+    "CitySort": 217,
+	"Citylink": "zhangye"
+}, {
+    "CityID": 218,
+    "name": "平凉",
+    "ProID": 22,
+    "CitySort": 218,
+	"Citylink": "pl"
+}, {
+    "CityID": 219,
+    "name": "酒泉",
+    "ProID": 22,
+    "CitySort": 219,
+	"Citylink": "jq"
+}, {
+    "CityID": 220,
+    "name": "庆阳",
+    "ProID": 22,
+    "CitySort": 220,
+	"Citylink": "qingyang"
+}, {
+    "CityID": 221,
+    "name": "定西",
+    "ProID": 22,
+    "CitySort": 221,
+	"Citylink": "dx"
+}, {
+    "CityID": 222,
+    "name": "陇南",
+    "ProID": 22,
+    "CitySort": 222,
+	"Citylink": "ln"
+}, {
+    "CityID": 223,
+    "name": "临夏",
+    "ProID": 22,
+    "CitySort": 223,
+	"Citylink": "linxia"
+}, {
+    "CityID": 224,
+    "name": "甘南",
+    "ProID": 22,
+    "CitySort": 224,
+	"Citylink": "gn"
+}, {
+    "CityID": 225,
+    "name": "成都",
+    "ProID": 28,
+    "CitySort": 225,
+	"Citylink": "cd"
+}, {
+    "CityID": 226,
+    "name": "攀枝花",
+    "ProID": 28,
+    "CitySort": 226,
+	"Citylink": "panzhihua"
+}, {
+    "CityID": 227,
+    "name": "自贡",
+    "ProID": 28,
+    "CitySort": 227,
+	"Citylink": "zg"
+}, {
+    "CityID": 228,
+    "name": "绵阳",
+    "ProID": 28,
+    "CitySort": 228,
+	"Citylink": "mianyang"
+}, {
+    "CityID": 229,
+    "name": "南充",
+    "ProID": 28,
+    "CitySort": 229,
+	"Citylink": "nanchong"
+}, {
+    "CityID": 230,
+    "name": "达州",
+    "ProID": 28,
+    "CitySort": 230,
+	"Citylink": "dazhou"
+}, {
+    "CityID": 231,
+    "name": "遂宁",
+    "ProID": 28,
+    "CitySort": 231,
+	"Citylink": "suining"
+}, {
+    "CityID": 232,
+    "name": "广安",
+    "ProID": 28,
+    "CitySort": 232,
+	"Citylink": "ga"
+}, {
+    "CityID": 233,
+    "name": "巴中",
+    "ProID": 28,
+    "CitySort": 233,
+	"Citylink": "bazhong"
+}, {
+    "CityID": 234,
+    "name": "泸州",
+    "ProID": 28,
+    "CitySort": 234,
+	"Citylink": "luzhou"
+}, {
+    "CityID": 235,
+    "name": "宜宾",
+    "ProID": 28,
+    "CitySort": 235,
+	"Citylink": "yb"
+}, {
+    "CityID": 236,
+    "name": "资阳",
+    "ProID": 28,
+    "CitySort": 236,
+	"Citylink": "zy"
+}, {
+    "CityID": 237,
+    "name": "内江",
+    "ProID": 28,
+    "CitySort": 237,
+	"Citylink": "scnj"
+}, {
+    "CityID": 238,
+    "name": "乐山",
+    "ProID": 28,
+    "CitySort": 238,
+	"Citylink": "ls"
+}, {
+    "CityID": 239,
+    "name": "眉山",
+    "ProID": 28,
+    "CitySort": 239,
+	"Citylink": "ms"
+}, {
+    "CityID": 240,
+    "name": "凉山",
+    "ProID": 28,
+    "CitySort": 240,
+	"Citylink": "liangshan"
+}, {
+    "CityID": 241,
+    "name": "雅安",
+    "ProID": 28,
+    "CitySort": 241,
+	"Citylink": "ya"
+}, {
+    "CityID": 242,
+    "name": "甘孜",
+    "ProID": 28,
+    "CitySort": 242,
+	"Citylink": "ganzi"
+}, {
+    "CityID": 243,
+    "name": "阿坝",
+    "ProID": 28,
+    "CitySort": 243,
+	"Citylink": "ab"
+}, {
+    "CityID": 244,
+    "name": "德阳",
+    "ProID": 28,
+    "CitySort": 244,
+	"Citylink": "deyang"
+}, {
+    "CityID": 245,
+    "name": "广元",
+    "ProID": 28,
+    "CitySort": 245,
+	"Citylink": "guangyuan"
+}, {
+    "CityID": 246,
+    "name": "贵阳",
+    "ProID": 29,
+    "CitySort": 246,
+	"Citylink": "gy"
+}, {
+    "CityID": 247,
+    "name": "遵义",
+    "ProID": 29,
+    "CitySort": 247,
+	"Citylink": "zunyi"
+}, {
+    "CityID": 248,
+    "name": "安顺",
+    "ProID": 29,
+    "CitySort": 248,
+	"Citylink": "anshun"
+}, {
+    "CityID": 249,
+    "name": "黔南",
+    "ProID": 29,
+    "CitySort": 249,
+	"Citylink": "qn"
+}, {
+    "CityID": 250,
+    "name": "黔东南",
+    "ProID": 29,
+    "CitySort": 250,
+	"Citylink": "qdn"
+}, {
+    "CityID": 251,
+    "name": "铜仁地区",
+    "ProID": 29,
+    "CitySort": 251,
+	"Citylink": "tr"
+}, {
+    "CityID": 252,
+    "name": "毕节地区",
+    "ProID": 29,
+    "CitySort": 252,
+	"Citylink": "bijie"
+}, {
+    "CityID": 253,
+    "name": "六盘水",
+    "ProID": 29,
+    "CitySort": 253,
+	"Citylink": "lps"
+}, {
+    "CityID": 254,
+    "name": "黔西南",
+    "ProID": 29,
+    "CitySort": 254,
+	"Citylink": "qxn"
+}, {
+    "CityID": 255,
+    "name": "海口",
+    "ProID": 20,
+    "CitySort": 255,
+	"Citylink": "haikou"
+}, {
+    "CityID": 256,
+    "name": "三亚",
+    "ProID": 20,
+    "CitySort": 256,
+	"Citylink": "sanya"
+}, {
+    "CityID": 257,
+    "name": "五指山",
+    "ProID": 20,
+    "CitySort": 257,
+	"Citylink": "wzs"
+}, {
+    "CityID": 258,
+    "name": "琼海",
+    "ProID": 20,
+    "CitySort": 258,
+	"Citylink": "qhai"
+}, {
+    "CityID": 259,
+    "name": "儋州",
+    "ProID": 20,
+    "CitySort": 259,
+     "Citylink": "zzhou"
+}, {
+    "CityID": 260,
+    "name": "文昌",
+    "ProID": 20,
+    "CitySort": 260,
+	 "Citylink": "wenchang"
+}, {
+    "CityID": 261,
+    "name": "万宁",
+    "ProID": 20,
+    "CitySort": 261,
+	"Citylink": "wning"
+}, {
+    "CityID": 262,
+    "name": "东方",
+    "ProID": 20,
+    "CitySort": 262,
+	"Citylink": "df"
+}, {
+    "CityID": 273,
+    "name": "西双版纳",
+    "ProID": 30,
+    "CitySort": 273,
+	"Citylink": "bn"
+}, {
+    "CityID": 274,
+    "name": "德宏",
+    "ProID": 30,
+    "CitySort": 274,
+	"Citylink": "dh"
+}, {
+    "CityID": 275,
+    "name": "昭通",
+    "ProID": 30,
+    "CitySort": 275,
+	"Citylink": "zt"
+}, {
+    "CityID": 276,
+    "name": "昆明",
+    "ProID": 30,
+    "CitySort": 276,
+	"Citylink": "km"
+}, {
+    "CityID": 277,
+    "name": "大理",
+    "ProID": 30,
+    "CitySort": 277,
+	"Citylink": "dali"
+}, {
+    "CityID": 278,
+    "name": "红河",
+    "ProID": 30,
+    "CitySort": 278,
+	"Citylink": "honghe"
+}, {
+    "CityID": 279,
+    "name": "曲靖",
+    "ProID": 30,
+    "CitySort": 279,
+	"Citylink": "qj"
+}, {
+    "CityID": 280,
+    "name": "保山",
+    "ProID": 30,
+    "CitySort": 280,
+	"Citylink": "bs"
+}, {
+    "CityID": 281,
+    "name": "文山",
+    "ProID": 30,
+    "CitySort": 281,
+	"Citylink": "ws"
+}, {
+    "CityID": 282,
+    "name": "玉溪",
+    "ProID": 30,
+    "CitySort": 282,
+	"Citylink": "yx"
+}, {
+    "CityID": 283,
+    "name": "楚雄",
+    "ProID": 30,
+    "CitySort": 283,
+	"Citylink": "cx"
+}, {
+    "CityID": 284,
+    "name": "普洱",
+    "ProID": 30,
+    "CitySort": 284,
+	"Citylink": "per"
+}, {
+    "CityID": 285,
+    "name": "临沧",
+    "ProID": 30,
+    "CitySort": 285,
+	"Citylink": "lincang"
+}, {
+    "CityID": 286,
+    "name": "怒江",
+    "ProID": 30,
+    "CitySort": 286,
+	"Citylink": "nujiang"
+}, {
+    "CityID": 287,
+    "name": "迪庆",
+    "ProID": 30,
+    "CitySort": 287,
+	"Citylink": "diqing"
+}, {
+    "CityID": 288,
+    "name": "丽江",
+    "ProID": 30,
+    "CitySort": 288,
+	"Citylink": "lj"
+}, {
+    "CityID": 289,
+    "name": "海北",
+    "ProID": 25,
+    "CitySort": 289,
+	"Citylink": "haibei"
+}, {
+    "CityID": 290,
+    "name": "西宁",
+    "ProID": 25,
+    "CitySort": 290,
+	"Citylink": "xn"
+}, {
+    "CityID": 291,
+    "name": "海东",
+    "ProID": 25,
+    "CitySort": 291,
+	"Citylink": "haidong"
+}, {
+    "CityID": 292,
+    "name": "黄南",
+    "ProID": 25,
+    "CitySort": 292,
+	"Citylink": "huangnan"
+}, {
+    "CityID": 293,
+    "name": "海南",
+    "ProID": 25,
+    "CitySort": 293,
+	"Citylink": "hainan"
+}, {
+    "CityID": 294,
+    "name": "果洛",
+    "ProID": 25,
+    "CitySort": 294,
+	"Citylink": "guoluo"
+}, {
+    "CityID": 295,
+    "name": "玉树",
+    "ProID": 25,
+    "CitySort": 295,
+	"Citylink": "ys"
+}, {
+    "CityID": 296,
+    "name": "海西",
+    "ProID": 25,
+    "CitySort": 296,
+	"Citylink": "hx"
+}, {
+    "CityID": 297,
+    "name": "西安",
+    "ProID": 23,
+    "CitySort": 297,
+	"Citylink": "xa"
+}, {
+    "CityID": 298,
+    "name": "咸阳",
+    "ProID": 23,
+    "CitySort": 298,
+	"Citylink": "xianyang"
+}, {
+    "CityID": 299,
+    "name": "延安",
+    "ProID": 23,
+    "CitySort": 299,
+	"Citylink": "yanan"
+}, {
+    "CityID": 300,
+    "name": "榆林",
+    "ProID": 23,
+    "CitySort": 300,
+	"Citylink": "yl"
+}, {
+    "CityID": 301,
+    "name": "渭南",
+    "ProID": 23,
+    "CitySort": 301,
+	"Citylink": "wn"
+}, {
+    "CityID": 302,
+    "name": "商洛",
+    "ProID": 23,
+    "CitySort": 302,
+	"Citylink": "sl"
+}, {
+    "CityID": 303,
+    "name": "安康",
+    "ProID": 23,
+    "CitySort": 303,
+	"Citylink": "ankang"
+}, {
+    "CityID": 304,
+    "name": "汉中",
+    "ProID": 23,
+    "CitySort": 304,
+	"Citylink": "hanzhou"
+}, {
+    "CityID": 305,
+    "name": "宝鸡",
+    "ProID": 23,
+    "CitySort": 305,
+	"Citylink": "baoji"
+}, {
+    "CityID": 306,
+    "name": "铜川",
+    "ProID": 23,
+    "CitySort": 306,
+	"Citylink": "tc"
+}, {
+    "CityID": 307,
+    "name": "防城港",
+    "ProID": 21,
+    "CitySort": 307,
+	"Citylink": "fcg"
+}, {
+    "CityID": 308,
+    "name": "南宁",
+    "ProID": 21,
+    "CitySort": 308,
+	"Citylink": "nn"
+}, {
+    "CityID": 309,
+    "name": "崇左",
+    "ProID": 21,
+    "CitySort": 309,
+	"Citylink": "chongzuo"
+}, {
+    "CityID": 310,
+    "name": "来宾",
+    "ProID": 21,
+    "CitySort": 310,
+	"Citylink": "lb"
+}, {
+    "CityID": 311,
+    "name": "柳州",
+    "ProID": 21,
+    "CitySort": 311,
+	"Citylink": "liuzhou"
+}, {
+    "CityID": 312,
+    "name": "桂林",
+    "ProID": 21,
+    "CitySort": 312,
+	"Citylink": "gl"
+}, {
+    "CityID": 313,
+    "name": "梧州",
+    "ProID": 21,
+    "CitySort": 313,
+	"Citylink": "wuzhou"
+}, {
+    "CityID": 314,
+    "name": "贺州",
+    "ProID": 21,
+    "CitySort": 314,
+	"Citylink": "hezhou"
+}, {
+    "CityID": 315,
+    "name": "贵港",
+    "ProID": 21,
+    "CitySort": 315,
+	"Citylink": "gg"
+}, {
+    "CityID": 316,
+    "name": "玉林",
+    "ProID": 21,
+    "CitySort": 316,
+	"Citylink": "yulin"
+}, {
+    "CityID": 317,
+    "name": "百色",
+    "ProID": 21,
+    "CitySort": 317,
+	"Citylink": "baise"
+}, {
+    "CityID": 318,
+    "name": "钦州",
+    "ProID": 21,
+    "CitySort": 318,
+	"Citylink": "qinzhou"
+}, {
+    "CityID": 319,
+    "name": "河池",
+    "ProID": 21,
+    "CitySort": 319,
+	"Citylink": "hc"
+}, {
+    "CityID": 320,
+    "name": "北海",
+    "ProID": 21,
+    "CitySort": 320,
+	"Citylink": "bh"
+}, {
+    "CityID": 321,
+    "name": "拉萨",
+    "ProID": 31,
+    "CitySort": 321,
+	"Citylink": "lasa"
+}, {
+    "CityID": 322,
+    "name": "日喀则",
+    "ProID": 31,
+    "CitySort": 322,
+	"Citylink": "rkz"
+}, {
+    "CityID": 323,
+    "name": "山南",
+    "ProID": 31,
+    "CitySort": 323,
+	"Citylink": "sn"
+}, {
+    "CityID": 324,
+    "name": "林芝",
+    "ProID": 31,
+    "CitySort": 324,
+	"Citylink": "linzhi"
+}, {
+    "CityID": 325,
+    "name": "昌都",
+    "ProID": 31,
+    "CitySort": 325,
+	"Citylink": "changdu"
+}, {
+    "CityID": 326,
+    "name": "那曲",
+    "ProID": 31,
+    "CitySort": 326,
+	"Citylink": "nq"
+}, {
+    "CityID": 327,
+    "name": "阿里",
+    "ProID": 31,
+    "CitySort": 327,
+	"Citylink": "al"
+}, {
+    "CityID": 328,
+    "name": "银川",
+    "ProID": 26,
+    "CitySort": 328,
+	"Citylink": "yinchuan"
+}, {
+    "CityID": 329,
+    "name": "石嘴山",
+    "ProID": 26,
+    "CitySort": 329,
+	"Citylink": "szs"
+}, {
+    "CityID": 330,
+    "name": "吴忠",
+    "ProID": 26,
+    "CitySort": 330,
+	"Citylink": "wuzhong"
+}, {
+    "CityID": 331,
+    "name": "固原",
+    "ProID": 26,
+    "CitySort": 331,
+	"Citylink": "guyuan"
+}, {
+    "CityID": 332,
+    "name": "中卫",
+    "ProID": 26,
+    "CitySort": 332,
+	"Citylink": "zw"
+}, {
+    "CityID": 333,
+    "name": "塔城",
+    "ProID": 24,
+    "CitySort": 333,
+	"Citylink": "tacheng"
+}, {
+    "CityID": 334,
+    "name": "哈密",
+    "ProID": 24,
+    "CitySort": 334,
+	"Citylink": "hami"
+}, {
+    "CityID": 335,
+    "name": "和田",
+    "ProID": 24,
+    "CitySort": 335,
+	"Citylink": "ht"
+}, {
+    "CityID": 336,
+    "name": "阿勒泰",
+    "ProID": 24,
+    "CitySort": 336,
+	"Citylink": "aletai"
+}, {
+    "CityID": 337,
+    "name": "克孜勒苏",
+    "ProID": 24,
+    "CitySort": 337
+}, {
+    "CityID": 338,
+    "name": "博尔塔拉",
+    "ProID": 24,
+    "CitySort": 338,
+	"Citylink": "betl"
+}, {
+    "CityID": 339,
+    "name": "克拉玛依",
+    "ProID": 24,
+    "CitySort": 339,
+	"Citylink": "klmy"
+}, {
+    "CityID": 340,
+    "name": "乌鲁木齐",
+    "ProID": 24,
+    "CitySort": 340,
+	"Citylink": "xj"
+}, {
+    "CityID": 341,
+    "name": "石河子",
+    "ProID": 24,
+    "CitySort": 341,
+	"Citylink": "shihezi"
+}, {
+    "CityID": 342,
+    "name": "昌吉",
+    "ProID": 24,
+    "CitySort": 342,
+	"Citylink": "changji"
+}, {
+    "CityID": 343,
+    "name": "五家渠",
+    "ProID": 24,
+    "CitySort": 343,
+	"Citylink": "ht"
+}, {
+    "CityID": 344,
+    "name": "吐鲁番",
+    "ProID": 24,
+    "CitySort": 344,
+	"Citylink": "tlf"
+}, {
+    "CityID": 345,
+    "name": "巴音郭楞",
+    "ProID": 24,
+    "CitySort": 345,
+	"Citylink": "bygl"
+}, {
+    "CityID": 346,
+    "name": "阿克苏",
+    "ProID": 24,
+    "CitySort": 346,
+	"Citylink": "aks"
+}, {
+    "CityID": 347,
+    "name": "阿拉尔",
+    "ProID": 24,
+    "CitySort": 347,
+	"Citylink": ""
+}, {
+    "CityID": 348,
+    "name": "喀什",
+    "ProID": 24,
+    "CitySort": 348,
+	"Citylink": "ks"
+}, {
+    "CityID": 349,
+    "name": "图木舒克",
+    "ProID": 24,
+    "CitySort": 349,
+	"Citylink": "ht"
+}, {
+    "CityID": 350,
+    "name": "伊犁",
+    "ProID": 24,
+    "CitySort": 350,
+	"Citylink": "yili"
+}, {
+    "CityID": 351,
+    "name": "呼伦贝尔",
+    "ProID": 5,
+    "CitySort": 351,
+	"Citylink": "hlbe"
+}, {
+    "CityID": 352,
+    "name": "呼和浩特",
+    "ProID": 5,
+    "CitySort": 352,
+	"Citylink": "hu"
+}, {
+    "CityID": 353,
+    "name": "包头",
+    "ProID": 5,
+    "CitySort": 353,
+	"Citylink": "bt"
+}, {
+    "CityID": 354,
+    "name": "乌海",
+    "ProID": 5,
+    "CitySort": 354,
+	"Citylink": "wuhai"
+}, {
+    "CityID": 355,
+    "name": "乌兰察布",
+    "ProID": 5,
+    "CitySort": 355,
+	"Citylink": "wlcb"
+}, {
+    "CityID": 356,
+    "name": "通辽",
+    "ProID": 5,
+    "CitySort": 356,
+	"Citylink": "tongliao"
+}, {
+    "CityID": 357,
+    "name": "赤峰",
+    "ProID": 5,
+    "CitySort": 357,
+	"Citylink": "chifeng"
+}, {
+    "CityID": 358,
+    "name": "鄂尔多斯",
+    "ProID": 5,
+    "CitySort": 358,
+	"Citylink": "erds"
+}, {
+    "CityID": 359,
+    "name": "巴彦淖尔",
+    "ProID": 5,
+    "CitySort": 359,
+	"Citylink": "bycem"
+}, {
+    "CityID": 360,
+    "name": "锡林郭勒",
+    "ProID": 5,
+    "CitySort": 360,
+	"Citylink": "xl"
+}, {
+    "CityID": 361,
+    "name": "兴安",
+    "ProID": 5,
+    "CitySort": 361,
+	"Citylink": "xam"
+}, {
+    "CityID": 362,
+    "name": "阿拉善",
+    "ProID": 5,
+    "CitySort": 362,
+	"Citylink": "alsm"
+}, {
+    "CityID": 363,
+    "name": "台北",
+    "ProID": 32,
+    "CitySort": 363,
+	"Citylink": "taibei"
+}, {
+    "CityID": 364,
+    "name": "高雄",
+    "ProID": 32,
+    "CitySort": 364,
+	"Citylink": "gaoxiong"
+}, {
+    "CityID": 365,
+    "name": "基隆",
+    "ProID": 32,
+    "CitySort": 365,
+	"Citylink": "jl"
+}, {
+    "CityID": 366,
+    "name": "台中",
+    "ProID": 32,
+    "CitySort": 366,
+	"Citylink": "tz"
+}, {
+    "CityID": 367,
+    "name": "台南",
+    "ProID": 32,
+    "CitySort": 367,
+	"Citylink": "tainan"
+}, {
+    "CityID": 368,
+    "name": "新竹",
+    "ProID": 32,
+    "CitySort": 368,
+	"Citylink": "xinzhu"
+}, {
+    "CityID": 369,
+    "name": "嘉义",
+    "ProID": 32,
+    "CitySort": 369,
+	"Citylink": "jiayi"
+}, {
+    "CityID": 370,
+    "name": "澳门",
+    "ProID": 33,
+    "CitySort": 370,
+	"Citylink": "aomen"
+}, {
+    "CityID": 371,
+    "name": "香港",
+    "ProID": 34,
+    "CitySort": 371,
+	"Citylink": "hk"
+}]
