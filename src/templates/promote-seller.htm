@@ -84,15 +84,17 @@
 					</div>
 					<div class="upload-container bhp__tab-fold--items">
 						<div class="fuc-wrapper bhp__tab-fold--wrapper">
-							<div class="fuc-image bhp__tab-fold--item">
-								<!-- <div class="item"><a class="pic ratio-square-b" style="background-image: url('images/lunbo_fullsize_01.gif');"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div> -->
-								<div class="item addition"><a class="ratio-square-b"></a><div class="text">添加+</div><input type="file" class="file-upload-btn" multiple="true"></div>
+							<div id="file_image_upload-con" class="fuc-image bhp__tab-fold--item">
+								<div class="item addition"><a class="ratio-square-b"></a><div class="text">添加图片+</div><input id="file_image_upload" type="file" name="file_image_upload" multiple="true"></div>
 							</div>
-							<div class="fuc-video bhp__tab-fold--item">
-								<!-- <embed type="video/quicktime" src="#" width="0" height="0"> -->
-								<video src="" autoplay=false poster="">
-
-								</video>
+							<div id="file_video_upload-con" class="fuc-video bhp__tab-fold--item">
+								<!-- <div class="item addition"><a class="ratio-square-b"></a><div class="text">添加视频+</div><input id="file_video_upload" type="file" name="file_image_upload" multiple="true"></div> -->
+								<div class="item">
+									<video poster="" loop controls height="auto" width="100%">
+										<source src="/uploads/animate.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+									</video>
+									<!-- <video src="/uploads/animate.mp4" poster="" loop="loop" controls height="1" width="1"></video> -->
+								</div>
 							</div>
 						</div>
 					</div>
@@ -100,4 +102,48 @@
 						<input type="submit" class="bhp__form--input-submit on">
 					</div>
 				</form>
+				<script>
+					$(function () {
+						$('#file_image_upload').uploadifive({
+							itemTemplate     : '<div class="item uploadifive-queue-item"><a class="pic ratio-square-b"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>',
+							auto             : true,
+							height           : '100%',
+							width            : '100%',
+							buttonClass      : 'file-upload-btn',
+							buttonText       : '',
+							checkScript      : 'tmp/check-exists.php',
+							queueID          : 'file_image_upload-con',
+							uploadScript     : 'tmp/upload.php',
+							onUploadComplete : function (file, data) {
+								var _jsonData = eval('(' + data + ')'),
+									_target = $('.fuc-image').children('.item.uploadifive-queue-item').eq(0);
+
+								_target.children('a.pic').css('background-image', 'url(' + _jsonData.fileUrl + ')');
+								_target.css('display', 'block');
+
+								console.log(_jsonData.fileUrl);
+							}
+						});
+						$('#file_video_upload').uploadifive({
+							itemTemplate     : '<div class="item uploadifive-queue-item"><a class="pic ratio-square-b"></a><i class="close ibhp-close"></i><div class="hint" data-mixlimit="5" contenteditable>点击编辑</div></div>',
+							auto             : true,
+							height           : '100%',
+							width            : '100%',
+							buttonClass      : 'file-upload-btn',
+							buttonText       : '',
+							checkScript      : 'tmp/check-exists.php',
+							queueID          : 'file_video_upload-con',
+							uploadScript     : 'tmp/upload.php',
+							onUploadComplete : function (file, data) {
+								var _jsonData = eval('(' + data + ')'),
+									_target = $('.fuc-video').children('.item.uploadifive-queue-item').eq(0);
+
+								_target.children('a.pic').css('background-image', 'url(' + _jsonData.fileUrl + ')');
+								_target.css('display', 'block');
+
+								console.log(_target);
+							}
+						});
+					});
+				</script>
 <!--=include components/sub/foot.htm -->

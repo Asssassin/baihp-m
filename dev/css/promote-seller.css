@@ -281,6 +281,15 @@ form.promote-form .bhp__form--section .bhp__form--input-submit {
           flex: 0 0 auto;
 }
 
+.upload-container .fuc-wrapper .fuc-video {
+  line-height: 0;
+}
+
+.upload-container .fuc-wrapper .fuc-video .item > .video {
+  width: 100%;
+  height: auto;
+}
+
 .upload-container .fuc-wrapper .fuc-image {
   padding: 16px 0;
   overflow: hidden;
@@ -344,10 +353,12 @@ form.promote-form .bhp__form--section .bhp__form--input-submit {
   left: 0;
 }
 
-.upload-container .fuc-wrapper .fuc-image .item.addition > input[type="file"] {
-  height: 100%;
-  opacity: 0;
-  left: 0;
+.upload-container .fuc-wrapper .fuc-image .item.addition .file-upload-btn {
   top: 0;
-  position: absolute;
+  position: absolute !important;
+}
+
+.upload-container .fuc-wrapper .fuc-image .item.addition .file-upload-btn > input[type="file"] {
+  height: 100%;
+  width: 100%;
 }

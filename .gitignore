@@ -28,7 +28,9 @@ build/Release
 node_modules
 
 # Destination directories
-./asset
-./dev
-./tmp*
-./cache
+/asset
+# dev
+/tmp
+/cache
+/uploads
+/archive

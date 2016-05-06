@@ -188,6 +188,15 @@
 						width: 100%;
 						flex: 0 0 auto;
 					}
+					.fuc-video {
+						line-height: 0;
+						.item {
+							>.video {
+								width: 100%;
+								height: auto;
+							}
+						}
+					}
 					.fuc-image {
 						padding: 16px 0;
 						// display: flex;
@@ -244,12 +253,13 @@
 									text-align: center;
 									left: 0;
 								}
-								> input[type="file"] {
-									height: 100%;
-									opacity: 0;
-									left: 0;
+								.file-upload-btn {
 									top: 0;
-									position: absolute;
+									position: absolute !important;
+									> input[type="file"] {
+										height: 100%;
+										width: 100%;
+									}
 								}
 							}
 						}

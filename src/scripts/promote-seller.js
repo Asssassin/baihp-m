@@ -61,7 +61,6 @@ jQuery(document).ready(function($) {
 		if (tabIndex !== index) aimWrap.css('transform', 'translateX(-' + index * 100 + '%)');
 	});
 
-
 	let [uploadBar, uploadCon] = [
 		$('.upload-bar'),
 		$('.upload-container')
