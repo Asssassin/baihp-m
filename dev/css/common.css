@@ -4916,7 +4916,7 @@ html {
 }
 
 .Wrapper .Drawer .drawer-wrapper .drawer-content .dc-item nav.hongbao-rank-list .item > span {
-  display: block;
+  display: inline-block;
 }
 
 .Wrapper .Drawer .drawer-wrapper.rank-tab .drawer-content {

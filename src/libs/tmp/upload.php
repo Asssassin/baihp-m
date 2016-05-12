@@ -33,7 +33,7 @@ if (!empty($_FILES)) {
 	} else {
 
 		// The file type wasn't allowed
-		echo 'Invalid file type.';
+		echo '出错了！！！';
 
 	}
 }
